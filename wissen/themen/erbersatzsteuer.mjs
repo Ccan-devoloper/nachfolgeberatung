@@ -12,12 +12,18 @@ export default {
     "Die Verschonung für Betriebsvermögen gilt auch hier; ebenso die Verschonungsbedarfsprüfung bei Grosserwerben — mit zehnjähriger Nachbeobachtung, die die Stiftung selbst trifft.",
     "Auf Antrag kann in 30 gleichen Jahresbeträgen gezahlt werden — die enthalten aber 5,5 Prozent Zins; das ist ein Liquiditätsinstrument, kein Geschenk.",
     "Wird die Stiftung innerhalb der Verrentung aufgelöst, sind die offenen Beträge mit dem Kapitalwert abzulösen.",
+    "Was nicht funktioniert: eine Stiftung nach ausländischem Recht mit zunächst inländischem Verwaltungssitz aufzusetzen und diesen vor Ablauf der 30 Jahre ins Ausland zu verlegen. Ob Stiftungen sich unter Wahrung ihrer Rechtsfähigkeit international bewegen können, war lange offen — der BFH hat 2025 entschieden, dass es auf die zivilrechtliche Anerkennung als rechtsfähig ankommt, und für Drittstaaten hilft die Niederlassungsfreiheit ohnehin nicht.",
     "Nur rechtsfähige Stiftungen sind erfasst: Treuhandstiftungen nicht, und nach dem BFH auch nicht eine ausländische Stiftung, die in Deutschland nicht als rechtsfähig anerkannt ist.",
   ],
   mythos: {
     behauptung: "Eine Familienstiftung zahlt keine Erbschaftsteuer, weil sie nicht stirbt.",
     richtigstellung: "Genau deshalb gibt es die Erbersatzsteuer. Das Bundesverfassungsgericht hat sie schon 1983 gebilligt: Wo Vermögen der Erbfolge dauerhaft entzogen wird, sucht das Steuerrecht einen Ersatz für den Generationenwechsel — alle 30 Jahre.",
   },
+  alternativen: [
+    { form: "Vermögensstruktur auf die Verschonung ausrichten", wannBesser: "Wenn das Stiftungsvermögen überwiegend Unternehmensvermögen ist.", warum: "Der wirksamste Hebel: Was begünstigt ist, wird auch am Dreissigjahresstichtag verschont — die Steuer trifft dann nur den nicht begünstigten Teil." },
+    { form: "Umwandlung in eine gemeinnützige Stiftung vor dem Stichtag", wannBesser: "Wenn die Destinatäre ausgestorben sind oder die Familie die Versorgung nicht mehr braucht.", warum: "Gemeinnütziges Vermögen unterliegt der Erbersatzsteuer nicht. Der Preis ist endgültig: Die Familie bekommt danach nichts mehr." },
+    { form: "Treuhandstiftung statt rechtsfähiger Stiftung", wannBesser: "Wenn die Vermögensbindung auch vertraglich tragbar ist.", warum: "Ohne eigenes Vermögen keine Erbersatzsteuer — bezahlt wird mit dem Trägerrisiko." },
+  ],
   einsatzfelder: [
     { situation: "Die Frage, ob eine Stiftung sich gegenüber dem Vererben lohnt.", warum: "Bei zwei Kindern und gleichmässigem Generationenabstand ist die Erbersatzsteuer ungefähr das, was ohnehin anfiele — nur planbar und ohne Streit. Bei einem Kind oder häufigen Erbfällen kann sie günstiger sein, bei vielen Kindern teurer." },
   ],

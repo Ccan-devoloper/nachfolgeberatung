@@ -33,7 +33,7 @@ FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im A
 - Formatableitung: Welche Beitragsformate ein Thema tragen kann, ergibt sich aus
   seinen Blöcken — nicht aus einer Pflegeliste, die veraltet
 - Berufsrechtliche Leitplanken, jeweils mit ihrer technischen Entsprechung
-- **41 Themen** aus fünf Quellen (`wissen/rohmaterial/QUELLEN.md`): Einsatzfelder,
+- **43 Themen** aus sechs Quellen (`wissen/rohmaterial/QUELLEN.md`): Einsatzfelder,
   Vorteile und Nachteile, Alternativen, Ersatzformen, Lebenszyklus-Besteuerung,
   Vermögensschutz und seine Grenzen, Liechtenstein, Reform 2023 — mit fiktiven
   Beispielen in den Grössenordnungen, die in der Beratung vorkommen

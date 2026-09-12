@@ -12,6 +12,7 @@ export default {
     "Der BFH hat am 3. Dezember 2024 den Massstab geklärt: Entzogen ist das Vermögen, wenn die Beteiligten nach zivilrechtlichen Massstäben die Herausgabe nicht bewirken können und keine Weisungsbefugnis gegenüber dem Stiftungsrat haben; wirtschaftliche Massstäbe zählen nicht.",
     "Der BFH wendet die Escape-Klausel wegen der Kapitalverkehrsfreiheit über den Wortlaut hinaus auch auf Drittstaatenstiftungen an.",
     "Was bereits zugerechnet wurde, wird bei späterer Ausschüttung nicht noch einmal besteuert.",
+    "Der Zurechnungsbesteuerung vorgelagert ist eine schärfere Stufe: Behält der Stifter die vollständige Kontrolle, wird ihm das Vermögen schon nach den allgemeinen Zurechnungsregeln zugerechnet — die Stiftung existiert steuerlich gar nicht erst. Dann fehlt es konsequenterweise auch an einer Schenkung bei der Errichtung.",
     "Der häufigste Grund für das Scheitern des Entlastungsbeweises: Der Stifter steuert faktisch weiter — über Mandatsverträge, Beiratsbesetzung, informelle Weisungen.",
   ],
   mythos: {

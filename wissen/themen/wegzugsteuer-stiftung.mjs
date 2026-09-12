@@ -7,6 +7,7 @@ export default {
   normen: ["§ 6 AStG", "§ 17 EStG", "§ 17 Abs. 2 S. 5 EStG", "§§ 13a, 13b, 28a ErbStG"],
   kern: [
     "Die Wegzugsteuer trifft, wer mindestens ein Prozent an einer Kapitalgesellschaft im Privatvermögen hält, in sieben der letzten zwölf Jahre unbeschränkt steuerpflichtig war und diese Steuerpflicht beendet — oder die Anteile unentgeltlich an jemanden überträgt, der nicht unbeschränkt steuerpflichtig ist.",
+    "Unterschätzt wird der Erbfall: Die Wegzugsbesteuerung kann auch ausgelöst werden, wenn die Anteile auf einen Erben übergehen, der im Ausland ansässig ist. Wer Kinder im Ausland hat, trägt das Risiko also, ohne selbst irgendwohin zu ziehen.",
     "Seit der Reform 2022 gibt es für den Wegzug in EU- und EWR-Staaten keine zinslose Dauerstundung mehr: Die Steuer wird festgesetzt und gezahlt, auf Antrag in sieben Jahresraten, meist gegen Sicherheit.",
     "Die Rückkehrregel wurde verlängert — sieben Jahre plus fünf auf Antrag —, aber die Steuer wird zunächst erhoben. Der Gestaltungsdruck ist gestiegen.",
     "Der Gestaltungsansatz: Die Beteiligung geht auf eine deutsche Familienstiftung; sie bleibt stets im Inland steuerpflichtig, der Wegzug von Stifter und Begünstigten ist aus deutscher Sicht gefahrlos.",
@@ -15,6 +16,7 @@ export default {
     "Spiegelbild beim Zuzug: Wer nach Deutschland zieht und Verstrickung seines Vermögens vermeiden will, prüft vor dem Zuzug eine ausländische Stiftung.",
   ],
   einsatzfelder: [
+    { situation: "Der Unternehmer bleibt in Deutschland, aber eines seiner Kinder lebt dauerhaft im Ausland und würde miterben.", warum: "Auch dieser Anteilsübergang kann die Wegzugsteuer auslösen — die Familienstiftung als Anteilsinhaberin nimmt den Anteil aus der Erbfolge heraus und damit das Risiko." },
     { situation: "Die Kinder eines Unternehmers leben in London, Zürich und Singapur; er selbst überlegt, seinen Ruhestand im Ausland zu verbringen.", warum: "Jede Übertragung der GmbH-Anteile an ein Kind im Ausland und jeder eigene Wegzug würde die Wegzugsteuer auslösen. Hält die Stiftung die Anteile, kann die ganze Familie mobil bleiben." },
     { situation: "Ein Gründer will nach dem Exit seines Start-ups ins Ausland, hält aber noch eine Beteiligung.", warum: "Die Beteiligung vor dem Wegzug in eine Stiftung — dann geht er ohne Steuer, und künftige Wertsteigerungen laufen in der Stiftung zu 95 Prozent steuerfrei." },
   ],

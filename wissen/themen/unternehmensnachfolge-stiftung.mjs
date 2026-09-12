@@ -13,6 +13,9 @@ export default {
     "Über Personalunion in Stiftungs- und Gesellschaftsorganen lässt sich das Gesamtgeschehen lenken; über Fremdorganschaft die Führung professionalisieren.",
     "Gegenüber der Dauertestamentsvollstreckung fehlt die 30-Jahres-Grenze; gegenüber der GmbH die Mitbestimmung.",
   ],
+  fehler: [
+    { fehler: "Mit der Stiftung gilt die Nachfolge als geregelt.", richtig: "Die Stiftung löst die Anteilsnachfolge, nicht die Führungsnachfolge. Wer das Unternehmen künftig führt, wie diese Person gefunden, eingearbeitet und kontrolliert wird, steht in keiner Stiftungssatzung — das ist eine eigene, meist die schwierigere Aufgabe." },
+  ],
   einsatzfelder: [
     { situation: "Kein Kind will oder kann das Unternehmen führen, aber alle sollen davon leben können.", warum: "Die Stiftung trennt Führung von Versorgung: Fremdmanager führen, die Familie ist begünstigt." },
     { situation: "Mehrere Kinder mit unterschiedlichen Lebenswegen — eines im Betrieb, zwei nicht.", warum: "Ohne Stiftung entstehen bei jedem Erbfall neue Gesellschafter mit eigenen Interessen; mit Stiftung bleibt der Gesellschafter immer derselbe." },
