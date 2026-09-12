@@ -1,0 +1,13 @@
+{
+  "name": "nachfolgeberatung",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Wissensbasis und Social-Automatik für Unternehmens- und Vermögensnachfolge, Stiftungsrecht",
+  "scripts": {
+    "pruefe": "node tools/pruefe-wissen.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
