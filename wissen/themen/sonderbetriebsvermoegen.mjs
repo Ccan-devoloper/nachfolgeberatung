@@ -35,5 +35,5 @@ export default {
   antwortfreigabe: "keine",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 19.1", "Q7 Kap. 19.2", "Q7 Fall 28.5", "Q7 Fehler 21"],
-  verwandt: ["niessbrauch-kg-anteil", "nachfolgeklauseln-kg", "betriebsvermoegen-verschonung", "dotation-ertragsteuer"],
+  verwandt: ["niessbrauch-kg-anteil", "nachfolgeklauseln-kg", "betriebsvermoegen-verschonung", "dotation-ertragsteuer", "erbauseinandersetzung-steuer", "share-asset-deal"],
 };

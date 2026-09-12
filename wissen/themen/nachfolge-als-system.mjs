@@ -21,7 +21,8 @@ export default {
     { schritt: "Bestandsaufnahme aller Dokumente", hinweis: "Gesellschaftsverträge, Testamente, Eheverträge, Vollmachten, Schenkungsverträge, Poolverträge — und wer davon wovon weiß." },
     { schritt: "Widersprüche finden", hinweis: "Nachfolgeklausel gegen Erbeinsetzung, Güterstandsklausel gegen fehlenden Ehevertrag, Testamentsvollstreckung gegen Satzung." },
     { schritt: "Struktur wählen, dann Steuern rechnen", hinweis: "Direktübertragung, Nießbrauch, Familiengesellschaft, Stiftung — erst das Instrument, dann die Verschonung." },
-    { schritt: "Notfallordnung aufsetzen", hinweis: "Vollmachten, Notfalltestament, Vertretung in der Gesellschaft — für morgen früh, nicht für in zehn Jahren." },
+    { schritt: "Notfallordnung aufsetzen", hinweis: "Unternehmervollmacht, Ersatzgeschäftsführer, Bank- und Digitalzugänge, Notfalltestament — für morgen früh, nicht für in zehn Jahren." },
+    { schritt: "Auslandsbezug prüfen", hinweis: "Zweitwohnsitz, Auslandsimmobilie, Kind im Ausland: Erbstatut, Rechtswahl und Erbschaftsteuer folgen getrennten Regeln.", norm: "Art. 21, 22 EuErbVO" },
     { schritt: "Jährlicher Abgleich", hinweis: "Familienereignisse und Gesetzesänderungen — ein Termin im Jahr, alle Dokumente auf dem Tisch." },
   ],
   beispiele: [
@@ -36,5 +37,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 1 These 13, 20", "Q7 Kap. 29.4", "Q7 Fehler 22, 29, 45"],
-  verwandt: ["unternehmertestament", "ehevertrag-unternehmer", "nachfolgeklauseln-kg", "stiftung-warum"],
+  verwandt: ["unternehmertestament", "ehevertrag-unternehmer", "nachfolgeklauseln-kg", "stiftung-warum", "notfallordner-unternehmen", "euerbvo-grundlagen"],
 };

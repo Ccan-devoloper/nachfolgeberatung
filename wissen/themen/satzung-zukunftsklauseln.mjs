@@ -30,5 +30,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 6", "Q7 Fehler 3, 4, 34, 35, 36, 42", "Q7 Kap. 29.1"],
-  verwandt: ["stiftung-governance", "satzungsaenderung-reform", "stifterwille-ewigkeit", "exit-aus-der-stiftung"],
+  verwandt: ["stiftung-governance", "satzungsaenderung-reform", "stifterwille-ewigkeit", "exit-aus-der-stiftung", "handlungsunfaehigkeit-unternehmer"],
 };

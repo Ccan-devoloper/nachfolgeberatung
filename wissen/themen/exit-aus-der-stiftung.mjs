@@ -13,6 +13,8 @@ export default {
     "Beim Verkauf auf Holdingebene behält die Stiftung ihre Anteile. Die Holding wirkt als Blocker: Wird der Erlös dort bis zum Ablauf der Behaltensfrist thesauriert, bleibt die Verschonung unangetastet.",
     "Was sich nicht verhindern lässt, ist die Lohnsummenfrist — sind die operativen Gesellschaften verkauft, sammelt die Gruppe keine Lohnsummen mehr. Sind die Löhne seit Errichtung stetig gestiegen, ist ein grosser Teil der Zielsumme aber schon aufgelaufen.",
     "Anders als im Umwandlungssteuerrecht gibt es hier keine eigene Sperrfrist — die Bindung kommt allein aus dem Erbschaftsteuerrecht.",
+    "Neben der Steuer steht eine zweite, eigenständige Prüfung: Darf die Stiftung überhaupt verkaufen? Das Grundstockvermögen ist zu erhalten; ob dafür der gegenständliche Erhalt der Beteiligung nötig ist oder der Wertersatz genügt, entscheiden Satzung und der bei Errichtung dokumentierte Stifterwille.",
+    "Der Erlös wird durch den Verkauf nicht zu Privatvermögen der Familie: Er bleibt der Stiftung zugeordnet, und jede Leistung an Begünstigte ist ein eigener Vorgang mit eigener Satzungs- und Steuerprüfung.",
   ],
   mythos: {
     behauptung: "Aus der Stiftung heraus verkaufen kostet fast keine Steuer — 0,8 Prozent.",
@@ -46,6 +48,8 @@ export default {
     { konstellation: "Eine Familienstiftung hält 100 Prozent einer Holding, diese hält die operativen Gesellschaften. Im vierten Jahr nach Errichtung kommt ein Angebot über einen hohen zweistelligen Millionenbetrag.", gestaltung: "Nicht die Stiftung verkauft ihre Holdinganteile, sondern die Holding verkauft die operativen Beteiligungen. Der Erlös bleibt bis zum Ablauf der siebenjährigen Behaltensfrist in der Holding und wird dort angelegt. Erst danach fliesst er weiter.", pointe: "Drei Jahre Geduld auf Holdingebene kosten weniger als der zeitanteilige Wegfall einer Verschonung, die das halbe Unternehmen ausmachte." },
   ],
   fehler: [
+    { fehler: "Beim Verkauf aus der Stiftung wird nur das Beteiligungsprivileg geprüft, nicht die Satzung.", richtig: "Sagt die Satzung „dauerhafter Erhalt des Familienunternehmens\", ist der Verkauf eine stiftungsrechtliche Frage, bevor er eine steuerliche ist — Auslegung des Stifterwillens, Organbeschluss und gegebenenfalls Abstimmung mit der Aufsicht.", norm: "§ 83c BGB" },
+    { fehler: "Das Beteiligungsprivileg wird für die Stiftung als schematisch gesichert angesehen.", richtig: "Die Rechtsform Stiftung garantiert nicht jede Anwendung des Privilegs; Sondertatbestände und die konkrete Tätigkeit der Stiftung sind zu prüfen.", norm: "§ 8b KStG" },
     { fehler: "Die Stiftung wird direkt mit den operativen Gesellschaften ausgestattet, ohne Holding dazwischen.", richtig: "Dann gibt es keine Ebene, auf der verkauft werden kann, ohne die Behaltensfrist zu verletzen. Die Zwischenholding ist beim Aufbau fast umsonst und später nicht mehr nachzuholen." },
     { fehler: "Der Veräusserungserlös wird nach dem Verkauf an die Stiftung ausgekehrt, weil dort die Ausschüttungen gebraucht werden.", richtig: "Der Blocker wirkt nur, solange der Erlös in der Holding bleibt. Die Ausschüttungsplanung der Stiftung muss die Behaltensfrist überbrücken können." },
   ],
@@ -57,6 +61,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 2 },
   antwortfreigabe: "keine",
   stand: "2026-09-12",
-  quellen: ["Q6 Folie 10"],
-  verwandt: ["betriebsvermoegen-verschonung", "grosserwerb-verschonungsbedarf", "unternehmensnachfolge-stiftung", "stiftung-laufende-steuer"],
+  quellen: ["Q6 Folie 10", "Q8 Kap. 2.7, Fall 9, Kap. 7.3"],
+  verwandt: ["betriebsvermoegen-verschonung", "grosserwerb-verschonungsbedarf", "unternehmensnachfolge-stiftung", "stiftung-laufende-steuer", "exit-steuer-halteebene", "verkauf-nach-schenkung", "grundstock-sonstiges-vermoegen"],
 };

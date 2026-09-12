@@ -33,5 +33,5 @@ export default {
   antwortfreigabe: "keine",
   stand: "2026-09-12",
   quellen: ["Q5 Folien 146–148, 172–177", "Q1 Abschn. 1"],
-  verwandt: ["einfuehrungsfall-unternehmer", "liechtenstein-vorteile", "dotation-ertragsteuer", "gmbh-anteile-nachfolge"],
+  verwandt: ["einfuehrungsfall-unternehmer", "liechtenstein-vorteile", "dotation-ertragsteuer", "gmbh-anteile-nachfolge", "erbschaftsteuer-international", "exit-steuer-halteebene"],
 };

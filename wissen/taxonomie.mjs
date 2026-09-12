@@ -29,6 +29,10 @@ export const BEREICHE = {
   schenkung:        { label: "Vorweggenommene Erbfolge und Schenkung", kurz: "Schenkung", leitnormen: ["§§ 516 ff. BGB", "§ 7 ErbStG"] },
   gesellschaftsrecht: { label: "Gesellschaftsvertrag und Nachfolge", kurz: "Gesellschaftsrecht", leitnormen: ["HGB", "GmbHG", "§ 6 Abs. 3 EStG"] },
   immobilien:       { label: "Immobilienvermögen in der Nachfolge", kurz: "Immobilien", leitnormen: ["§ 23 EStG", "GrEStG", "§ 13b Abs. 4 ErbStG"] },
+  /* Ab Q8: der Nachfolgefall vor dem Tod, der Exit und der Auslandsbezug. */
+  vorsorge:         { label: "Handlungsunfähigkeit und Notfallvorsorge", kurz: "Vorsorge", leitnormen: ["§§ 1814 ff. BGB", "§ 6 GmbHG", "§§ 48 ff. HGB"] },
+  unternehmensverkauf: { label: "Unternehmensverkauf und Exit", kurz: "Exit", leitnormen: ["§§ 16, 17, 34 EStG", "§ 8b KStG", "§§ 21, 22 UmwStG"] },
+  auslandserbfall:  { label: "Internationales Erbrecht", kurz: "Auslandserbfall", leitnormen: ["EuErbVO", "§ 2 ErbStG", "§ 21 ErbStG"] },
 };
 
 /* Mandatsrelevanz: Wie oft entscheidet dieses Thema über ein echtes Mandat?

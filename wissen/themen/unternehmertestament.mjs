@@ -31,6 +31,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 3 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q7 Kap. 21", "Q7 Fehler 22, 23"],
-  verwandt: ["nachfolgeklauseln-kg", "dauertestamentsvollstreckung", "minderjaehrige-nachfolge", "nachfolge-als-system", "stiftung-von-todes-wegen"],
+  quellen: ["Q7 Kap. 21", "Q7 Fehler 22, 23", "Q8 Kap. 3.1, 3.2"],
+  verwandt: ["nachfolgeklauseln-kg", "dauertestamentsvollstreckung", "minderjaehrige-nachfolge", "nachfolge-als-system", "erbengemeinschaft-unternehmen", "berliner-testament-unternehmer", "handlungsunfaehigkeit-unternehmer"],
 };

@@ -33,5 +33,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 23", "Q7 Fall 28.10", "Q7 Fehler 29, 30"],
-  verwandt: ["zugewinn-stiftung", "rueckforderungsrechte", "gmbh-anteile-nachfolge", "nachfolge-als-system"],
+  verwandt: ["zugewinn-stiftung", "rueckforderungsrechte", "gmbh-anteile-nachfolge", "nachfolge-als-system", "euerbvo-grenzen"],
 };

@@ -29,5 +29,5 @@ export default {
   antwortfreigabe: "keine",
   stand: "2026-09-12",
   quellen: ["Q5 Folien 118 (Fall 5), 129–130"],
-  verwandt: ["stiftung-laufende-steuer", "dotation-ertragsteuer", "wegzugsteuer-stiftung"],
+  verwandt: ["holding-vor-dem-exit", "stiftung-laufende-steuer", "dotation-ertragsteuer", "wegzugsteuer-stiftung"],
 };

@@ -36,5 +36,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 20"],
-  verwandt: ["niessbrauch-gmbh-anteil", "vorwegabschlag-familienunternehmen", "wegzugsteuer-stiftung", "betriebsvermoegen-verschonung"],
+  verwandt: ["niessbrauch-gmbh-anteil", "vorwegabschlag-familienunternehmen", "wegzugsteuer-stiftung", "betriebsvermoegen-verschonung", "share-asset-deal", "ein-mann-gmbh-notfall"],
 };
