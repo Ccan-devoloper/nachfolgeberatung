@@ -43,6 +43,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 3 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q7 Kap. 24", "Q7 Fall 28.3, 28.12", "Q7 Fehler 28"],
-  verwandt: ["familienpool", "immobilien-stiftung-rechnen", "niessbrauch-immobilie", "immobilien-verwaltungsvermoegen"],
+  quellen: ["Q7 Kap. 24", "Q7 Fall 28.3, 28.12", "Q7 Fehler 28", "Q9 Kap. 3"],
+  verwandt: ["familienpool", "immobilien-stiftung-rechnen", "niessbrauch-immobilie", "immobilien-verwaltungsvermoegen", "share-deal-grest"],
 };

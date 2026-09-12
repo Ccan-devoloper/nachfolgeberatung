@@ -13,6 +13,7 @@ Wortlaut.
 | Q3 | Stiftungsersatzformen als Gestaltungsalternative zur privatnützigen Familienstiftung | 2026, final überarbeitet (Stand August 2026) | Funktionaler Rechtsformvergleich: Familienpool, Stiftungs-GmbH, Stiftung & Co. KG, Doppelstiftung, Treuhandstiftung, Dachstiftung, Dauertestamentsvollstreckung, Familienverein, ausländische Strukturen, GmgV; Querschnitt Pflichtteil / Zugewinn / Gläubiger; Entscheidungsbilder |
 | Q4 | Der Diskussionsentwurf des BMF v. 18.11.2025 zur Neufassung des § 15 AStG — Gelungene Reform oder Komplexitätsfalle? | IWB 2/2026, S. 72–79 | Zurechnungsbesteuerung, Escape-Klausel und BFH 3.12.2024, Motivtest, Niedrigsteuergrenze, mittelbar Berechtigte, nachgeschaltete Gesellschaften, Reformstand |
 | Q5 | Die Familienstiftung in der Unternehmens- und Vermögensnachfolge (Vortrag, 198 Folien) | Stand 07/09/2026 | Fünf Teile: Einführung mit durchgerechnetem Fall und Einsatzfeldern; Zivilrecht inkl. Reform 2023, Satzungsänderung, Zulegung, Stiftungs- und Transparenzregister; Stiftungssteuerrecht mit Praxisbeispielen (Immobilien, Leverage, VC/PE, Grosserwerbsfälle, § 42 AO); besondere Gestaltungsformen (Wegzugsteuer, Doppelstiftung, Stiftung & Co. KG, Treuhand, Stifterdrittel); ausländische Stiftungen mit Liechtenstein-Vergleich und Governance-Matrix zu § 15 Abs. 6 AStG |
+| Q9 | Private Clients — Ergänzungsdossier 2026: Bewertung, Grunderwerbsteuer, Family Governance, Vermögensanlage der Stiftung (juris- und beck-online-validiert, 18 Seiten) | Rechtsstand 13.09.2026 | Wertfindung (vier Bewertungsanlässe, Methodenrangfolge § 11 Abs. 2 BewG, vereinfachtes Ertragswertverfahren mit Faktor 13,75 und Normalisierung, Substanzwert, Pflichtteil § 2311 BGB, Abfindungsklauseln); Immobilien-Share-Deals (90 % / zehn Jahre, Grundstückszurechnung § 1 Abs. 4a, Signing/Closing ab 03.07.2026, Konzernklausel § 6a, Anzeigepflichten); Family Governance (Familienverfassung und Übersetzungsbedarf, vier Ebenen, Familientag und Familienrat, Eigentümerkompetenz, vierstufige Konflikteskalation); Vermögensanlage der Stiftung (§§ 83c, 84a BGB, Anlagerichtlinie als Entscheidungskorridor, Konzentration bei unternehmensverbundenen Stiftungen, 30-Jahres-Liquiditätsleiter für die Erbersatzsteuer, Investment-Memo) |
 | Q8 | Private Clients — Ergänzungsdossier 2026 (beck-online und juris validiert, 29 Seiten) | Rechtsstand 13.09.2026 | Die vier Felder, die Q7 offen liess: Handlungsunfähigkeit des Unternehmers (Rollenmatrix, Vorsorge- und Unternehmervollmacht, Prokura, Betreuungsverfügung, Ein-Mann-GmbH, Personengesellschaft, Notfallplan), Unternehmensverkauf (Share/Asset Deal, Steuermatrix nach Halteebene, § 34 EStG, Holding und Sperrfrist, Käufertypen, Earn-out und Rollover, Verkauf aus der Stiftung, Behaltensfristen), Erbengemeinschaft und Berliner Testament (§ 18 GmbHG, Freibetragsmechanik, § 15 Abs. 3 ErbStG, Pflichtteilsstraf- und Jastrowsche Klausel, Bindungswirkung, Auseinandersetzung, Alternativen), Internationales Erbrecht (EuErbVO Art. 21/22/34, Grenzen der Verordnung, Gesellschaftsstatut, ENZ, Drittstaaten, §§ 2, 21, 30 ErbStG); dazu 20 Fälle und 72 Beitragsideen |
 | Q7 | Private Clients — Vermögens- und Unternehmensnachfolge 2026 (Research-Dossier, beck-online- und juris-validiert, 50 Seiten) | Rechtsstand 12.09.2026 | Für dieses Projekt erstelltes Dossier, 33 Kapitel: Instrumentenlandkarte, Familienstiftung (Motive, Satzung, Grundstock, Errichtung, laufende Besteuerung, Destinatäre, Erbersatzsteuer, Grossvermögen, Wegzug, § 15 AStG, Sonderformen) und — neu für den Bestand — Niessbrauch (Immobilie, GmbH, KG), Rückforderungsrechte und Steuerklauseln, Sonderbetriebsvermögen und Nachfolgeklauseln, GmbH-Anteile, Unternehmertestament, Pflichtteil-Fristanlauf, Ehevertrag, Immobilienstruktur, Minderjährige, 90-Prozent-Test, Vorwegabschlag, BVerfG 1 BvR 804/22; dazu 45 Fehler, 15 Fallstudien, 130 Beitragsideen, juris-Validierungsbericht |
 | Q6 | Steuerforum Trier — Die Familienstiftung als Nachfolgeinstrument (Vortrag, 21 Folien) | 05.06.2024 | **Fremdmaterial** (Kanzleivortrag Dritter). Lebenszyklus, Doppelstiftung mit Bewertungsfalle, Wegzugsplanung, ausländische Stiftung. Verwertet wurden nur Sachaussagen, kein Wortlaut und keine Gliederung. Stand Juni 2024 — mehrere dort offene Fragen sind durch Entscheidungen aus 2025/2026 überholt (siehe unten). |
@@ -24,7 +25,7 @@ rückwärts finden, welche Themen betroffen sind.
 
 ## Fremdmaterial und Aktualität
 
-Q1 bis Q5 stammen vom Kanzleiinhaber selbst; Q7 und Q8 sind für dieses Projekt erstellte
+Q1 bis Q5 stammen vom Kanzleiinhaber selbst; Q7 bis Q9 sind für dieses Projekt erstellte
 Research-Dossiers ohne Autorennennung, deren Aussagen gegen zwei Datenbanken gespiegelt
 sind — die dort zitierte Literatur (Aufsätze, Kommentare, Handbücher) wird in den Themen
 nicht wiedergegeben, nur die Sachaussagen und die Rechtsprechung. **Q6 ist Fremdmaterial** — ein Vortrag
@@ -43,21 +44,22 @@ Q6 ist ausserdem von Juni 2024 und stellt Fragen, die seither beantwortet sind:
 
 **Die Themen bilden den Stand 2026 ab, nicht den von Q6.**
 
-## Lücken: was Q8 geschlossen hat und was bleibt
+## Lücken
 
-Die vier Felder, die nach Q7 fehlten — Handlungsunfähigkeit, Unternehmensverkauf,
-Erbengemeinschaft und Berliner Testament, internationales Erbrecht — sind mit Q8
-abgedeckt und in 22 Themen umgesetzt. Offen bleibt:
+Mit Q9 sind alle Felder der Themenlandkarte abgedeckt. Der Weg dahin:
 
-| Bereich | Stand | Was fehlt |
-| --- | --- | --- |
-| Bewertung | nur 90-Prozent-Test und Verwaltungsvermögen | vereinfachtes Ertragswertverfahren, Substanzwert als Untergrenze, Bewertung von Anteilen für Abfindung und Pflichtteil |
-| Grunderwerbsteuer | nur als Warnung in mehreren Themen | Share Deals bei Immobiliengesellschaften, Konzernklausel, Befreiungen in der Familie, Zurechnungsketten |
-| Family Governance | in Satzungsthemen enthalten | Familienverfassung, Familientag, Gesellschafterkompetenz, Konfliktlösung als eigenes Feld |
-| Vermögensanlage der Stiftung | Grundstock und Umschichtung | Anlagerichtlinie, Risikorahmen, Nachhaltigkeitsvorgaben, Zusammenspiel mit der Erbersatzsteuer-Liquidität |
+| Quelle | Geschlossen |
+| --- | --- |
+| Q1–Q6 | Familienstiftung, Ersatzformen, Liechtenstein, Lebenszyklus-Besteuerung |
+| Q7 | Niessbrauch, Schenkungsverträge, Personen- und Kapitalgesellschaftsanteile, Unternehmertestament, Ehevertrag, Immobilien, Minderjährige, Verschonungstechnik |
+| Q8 | Handlungsunfähigkeit, Unternehmensverkauf, Erbengemeinschaft und Berliner Testament, internationales Erbrecht |
+| Q9 | Bewertung, Grunderwerbsteuer, Family Governance, Vermögensanlage der Stiftung |
 
-Diese vier tragen je zwei bis vier Themen — Material dafür wäre nützlich, ist aber für
-die Reichweite nicht mehr kritisch.
+Was noch fehlt, ist keine Lücke im Beratungsfeld, sondern Vertiefung: Pflichtteilsverzicht
+und Abfindungsverhandlung als eigene Themen, Betriebsaufspaltung, Bewertung von
+Immobilien für die Erbschaftsteuer, Beirat und Aufsichtsrat im Familienunternehmen,
+Vermögensverwaltende GmbH als Ersatzform. Jedes davon trägt ein bis zwei Themen und
+lässt sich aus den vorhandenen Quellen ableiten — neues Material ist dafür nicht nötig.
 
 ## Noch zu erwarten
 

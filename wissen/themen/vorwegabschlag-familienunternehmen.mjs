@@ -33,5 +33,5 @@ export default {
   antwortfreigabe: "keine",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 20", "Q7 Kap. 26.3", "Q7 Fehler 32"],
-  verwandt: ["betriebsvermoegen-verschonung", "grosserwerb-verschonungsbedarf", "gmbh-anteile-nachfolge", "nachfolgeklauseln-kg"],
+  verwandt: ["betriebsvermoegen-verschonung", "grosserwerb-verschonungsbedarf", "gmbh-anteile-nachfolge", "nachfolgeklauseln-kg", "abfindungsklausel"],
 };

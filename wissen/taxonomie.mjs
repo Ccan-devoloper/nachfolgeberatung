@@ -33,6 +33,10 @@ export const BEREICHE = {
   vorsorge:         { label: "Handlungsunfähigkeit und Notfallvorsorge", kurz: "Vorsorge", leitnormen: ["§§ 1814 ff. BGB", "§ 6 GmbHG", "§§ 48 ff. HGB"] },
   unternehmensverkauf: { label: "Unternehmensverkauf und Exit", kurz: "Exit", leitnormen: ["§§ 16, 17, 34 EStG", "§ 8b KStG", "§§ 21, 22 UmwStG"] },
   auslandserbfall:  { label: "Internationales Erbrecht", kurz: "Auslandserbfall", leitnormen: ["EuErbVO", "§ 2 ErbStG", "§ 21 ErbStG"] },
+  /* Ab Q9: Wertfindung, Immobilien-Share-Deals und die Ordnung der Familie. */
+  bewertung:        { label: "Unternehmensbewertung", kurz: "Bewertung", leitnormen: ["§ 11 BewG", "§§ 199 ff. BewG", "§ 2311 BGB"] },
+  grest:            { label: "Grunderwerbsteuer", kurz: "GrESt", leitnormen: ["§ 1 GrEStG", "§ 6a GrEStG"] },
+  familygovernance: { label: "Family Governance", kurz: "Governance", leitnormen: ["Gesellschaftsvertrag", "Familienverfassung"] },
 };
 
 /* Mandatsrelevanz: Wie oft entscheidet dieses Thema über ein echtes Mandat?

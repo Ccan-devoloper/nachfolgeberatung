@@ -33,7 +33,7 @@ FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im A
 - Formatableitung: Welche Beitragsformate ein Thema tragen kann, ergibt sich aus
   seinen Blöcken — nicht aus einer Pflegeliste, die veraltet
 - Berufsrechtliche Leitplanken, jeweils mit ihrer technischen Entsprechung
-- **85 Themen** aus acht Quellen (`wissen/rohmaterial/QUELLEN.md`): Einsatzfelder,
+- **101 Themen** aus neun Quellen (`wissen/rohmaterial/QUELLEN.md`): Einsatzfelder,
   Vorteile und Nachteile, Alternativen, Ersatzformen, Lebenszyklus-Besteuerung,
   Vermögensschutz und seine Grenzen, Liechtenstein, Reform 2023 — und seit Q7 das
   Feld jenseits der Stiftung: Niessbrauch, Rückforderungsrechte, Personen- und
@@ -41,8 +41,9 @@ FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im A
   Minderjährige, 90-Prozent-Test, Vorwegabschlag, BVerfG-Verhandlung 13.10.2026; seit Q8
   die vier bis dahin offenen Felder: Handlungsunfähigkeit des Unternehmers,
   Unternehmensverkauf, Erbengemeinschaft und Berliner Testament, internationales
-  Erbrecht — mit fiktiven Beispielen in den Grössenordnungen, die in der Beratung
-  vorkommen
+  Erbrecht; seit Q9 Bewertung, Grunderwerbsteuer, Family Governance und die
+  Vermögensanlage der Stiftung — mit fiktiven Beispielen in den Grössenordnungen, die in
+  der Beratung vorkommen
 
 **Vorgaben des Kanzleiinhabers**
 

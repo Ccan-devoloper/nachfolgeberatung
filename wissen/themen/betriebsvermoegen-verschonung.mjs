@@ -25,5 +25,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q2 Unternehmensvermögen und erbschaftsteuerliche Verschonung", "Q3 Steuerliche Grundlinien des Familienpools"],
-  verwandt: ["unternehmensnachfolge-stiftung", "grosserwerb-verschonungsbedarf", "erbersatzsteuer", "familienpool", "einstiegstest-90-prozent", "vorwegabschlag-familienunternehmen", "verschonung-bverfg-2026", "verkauf-nach-schenkung"],
+  verwandt: ["unternehmensnachfolge-stiftung", "grosserwerb-verschonungsbedarf", "erbersatzsteuer", "familienpool", "einstiegstest-90-prozent", "vorwegabschlag-familienunternehmen", "verschonung-bverfg-2026", "verkauf-nach-schenkung", "ertragswertverfahren-praxis"],
 };

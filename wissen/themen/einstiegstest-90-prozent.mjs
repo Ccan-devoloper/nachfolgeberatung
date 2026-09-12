@@ -31,5 +31,5 @@ export default {
   antwortfreigabe: "keine",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 26.1", "Q7 Fall 28.14", "Q7 Fehler 14"],
-  verwandt: ["betriebsvermoegen-verschonung", "immobilien-verwaltungsvermoegen", "steuerklausel-schenkung", "grosserwerb-verschonungsbedarf"],
+  verwandt: ["betriebsvermoegen-verschonung", "immobilien-verwaltungsvermoegen", "steuerklausel-schenkung", "grosserwerb-verschonungsbedarf", "ertragswertverfahren-praxis"],
 };

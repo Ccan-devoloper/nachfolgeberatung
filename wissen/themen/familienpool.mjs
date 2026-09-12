@@ -35,5 +35,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q3 Familiengesellschaft und Familienpool", "Q7 Kap. 16, 24.1, Fall 28.12"],
-  verwandt: ["ersatzformen-ueberblick", "stiftung-warum", "betriebsvermoegen-verschonung", "stifterwille-ewigkeit", "immobilien-nachfolge-struktur", "minderjaehrige-nachfolge"],
+  verwandt: ["ersatzformen-ueberblick", "stiftung-warum", "betriebsvermoegen-verschonung", "stifterwille-ewigkeit", "immobilien-nachfolge-struktur", "minderjaehrige-nachfolge", "share-deal-grest", "konflikt-eskalation"],
 };

@@ -37,5 +37,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 1 These 13, 20", "Q7 Kap. 29.4", "Q7 Fehler 22, 29, 45"],
-  verwandt: ["unternehmertestament", "ehevertrag-unternehmer", "nachfolgeklauseln-kg", "stiftung-warum", "notfallordner-unternehmen", "euerbvo-grundlagen"],
+  verwandt: ["unternehmertestament", "ehevertrag-unternehmer", "nachfolgeklauseln-kg", "stiftung-warum", "notfallordner-unternehmen", "euerbvo-grundlagen", "familienverfassung"],
 };

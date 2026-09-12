@@ -27,6 +27,6 @@ export default {
   gewicht: { mandat: 2, reichweite: 1 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q7 Kap. 7", "Q7 Fehler 7"],
-  verwandt: ["stiftung-errichtung-ablauf", "verbrauchsstiftung", "zustiftung-steuerklasse", "stifterwille-ewigkeit"],
+  quellen: ["Q7 Kap. 7", "Q7 Fehler 7", "Q9 Kap. 5.1"],
+  verwandt: ["stiftung-errichtung-ablauf", "verbrauchsstiftung", "zustiftung-steuerklasse", "stifterwille-ewigkeit", "anlagerichtlinie-stiftung"],
 };

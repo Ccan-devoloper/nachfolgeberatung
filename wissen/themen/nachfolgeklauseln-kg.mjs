@@ -40,5 +40,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q7 Kap. 19", "Q7 Kap. 21.1", "Q7 Fehler 22, 32"],
-  verwandt: ["unternehmertestament", "sonderbetriebsvermoegen", "vorwegabschlag-familienunternehmen", "dauertestamentsvollstreckung"],
+  verwandt: ["unternehmertestament", "sonderbetriebsvermoegen", "vorwegabschlag-familienunternehmen", "dauertestamentsvollstreckung", "abfindungsklausel"],
 };

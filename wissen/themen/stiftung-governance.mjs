@@ -30,5 +30,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q1 Abschn. 4.2, 4.1.2 (a) cc), 5", "Q7 Kap. 6.2"],
-  verwandt: ["stifterwille-ewigkeit", "glaeubiger-anfechtung", "stiftung-errichtung-ablauf", "satzung-zukunftsklauseln"],
+  verwandt: ["stifterwille-ewigkeit", "glaeubiger-anfechtung", "stiftung-errichtung-ablauf", "satzung-zukunftsklauseln", "anlagerichtlinie-stiftung", "governance-ebenen"],
 };
