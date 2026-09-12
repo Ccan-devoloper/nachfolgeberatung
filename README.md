@@ -19,6 +19,7 @@ wissen/            das materielle Recht — der eigentliche Wert des Projekts
 tools/
   pruefe-wissen.mjs  `npm run pruefe`
 BERUFSRECHT.md     verbindliche Leitplanken für jeden erzeugten Inhalt
+FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im Automatikbetrieb
 ```
 
 ## Stand
@@ -44,8 +45,9 @@ BERUFSRECHT.md     verbindliche Leitplanken für jeden erzeugten Inhalt
 - Beispiele sind erwünscht — fiktiv, um Konstellationen vor Augen zu führen.
 - Tagesbudget 0,25 € für alle Beiträge und Stories zusammen (wie im Steuerberater-Repo:
   Sonnet für die Texte, Haiku für den Faktencheck, harter Tagesdeckel).
-- Vor jeder Veröffentlichung ein oder mehrere Gegenchecks — automatisch und, in der
-  ersten Phase, durch den Kanzleiinhaber selbst.
+- **Vollautomatisch, keine manuelle Freigabe.** Vor jeder Veröffentlichung laufen
+  mehrere Gegenchecks, darunter einer gegen den aktuellen Rechtsstand im Netz.
+  Was nicht besteht, erscheint nicht — siehe [`FREIGABE.md`](FREIGABE.md).
 - Autoren und Fundstellen werden in Beiträgen nicht genannt.
 
 **Als Nächstes**
@@ -56,8 +58,9 @@ BERUFSRECHT.md     verbindliche Leitplanken für jeden erzeugten Inhalt
    Eigenständigkeitsprüfung, Weiterverteilung nach LinkedIn und YouTube. Anzupassen
    sind im Wesentlichen drei Stellen: der Themenpool (gegen `wissen/` statt gegen eine
    Webseite), die Beitragsformate und der Kalender.
-2. **Freigabe-Queue** — der wichtigste Unterschied zum Steuerberater-Bot: Der Bot
-   erzeugt, ein Mensch gibt frei, erst dann wird veröffentlicht. Formatweise lockerbar.
+2. **Veröffentlichungsschranke** bauen ([`FREIGABE.md`](FREIGABE.md)) — sechs
+   Prüfungen vor jedem Beitrag, davon vier kostenlos und lokal. Kein Entwurf, der
+   eine nicht besteht, erscheint.
 3. **Stil** — zwei Entwurfsrichtungen liegen vor und sind noch nicht entschieden.
 
 ## Warum nicht dasselbe Repo wie der Steuerberater-Bot

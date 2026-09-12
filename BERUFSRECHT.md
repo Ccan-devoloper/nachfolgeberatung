@@ -75,7 +75,8 @@ eine Stiftung?" **Rechtsberatung im Einzelfall** — mit Haftung und ohne Mandat
 **Regel:** Der Bot antwortet nur auf **abstrakte Fachfragen** und nur zu Themen, die
 `antwortfreigabe: "abstrakt"` tragen. Sobald ein Kommentar einen eigenen Sachverhalt
 schildert — Zahlen, Vermögensgegenstände, Familienverhältnisse, „bei mir ist es so" —
-gibt es ausschliesslich den Standardhinweis.
+gibt es ausschliesslich den Standardhinweis. Das gilt auch im Automatikbetrieb: Hier
+wird nicht gelockert, sondern im Zweifel geschwiegen.
 
 **Technisch:** zwei Schranken, die beide greifen müssen:
 
@@ -109,13 +110,26 @@ so kann kein Beitrag einen aktuelleren Stand behaupten, als er hat. Themen, dere
 
 ---
 
+## 8 · Automatikbetrieb — Entscheidung des Kanzleiinhabers
+
+Der Kanal läuft **vollautomatisch, ohne manuelle Freigabe**. Das ist eine bewusste
+Entscheidung des Kanzleiinhabers, getroffen in Kenntnis der Alternative: Die
+Wissensbasis stammt aus seinen eigenen veröffentlichten Aufsätzen und Vorträgen, und
+vor jeder Veröffentlichung läuft ein Gegencheck gegen das Web.
+
+Damit verlagert sich die gesamte Kontrolle in die **Veröffentlichungsschranke**
+([`FREIGABE.md`](FREIGABE.md)). Deren tragende Regel: Ein Beitrag, der eine Prüfung
+nicht besteht, wird **nicht veröffentlicht** — der Slot bleibt leer. Es gibt keinen
+Pfad, auf dem ein beanstandeter Entwurf trotzdem erscheint.
+
 ## Vor dem ersten Live-Beitrag
 
 Diese Punkte kann kein Programm entscheiden. Sie gehören dem Kanzleiinhaber:
 
 - [ ] Accountname und Profilangaben mit den Kennzeichnungspflichten abgleichen
-- [ ] Berufshaftpflichtversicherer über die Kanalaktivität informieren
-- [ ] Entscheiden, ob Kommentarantworten überhaupt automatisch laufen sollen
-      (Empfehlung: erste vier Wochen aus, danach nur `antwortfreigabe: "abstrakt"`)
+- [ ] Berufshaftpflichtversicherer über die Kanalaktivität informieren — bei
+      vollautomatischem Betrieb ohne Vorabsicht ist das kein Formalismus
 - [ ] Die Sperrliste der Mitbewerber und Begriffe einmal befüllen
-- [ ] Freigabe-Queue: vier Wochen jeder Beitrag manuell, danach formatweise lockern
+- [ ] Die ersten Läufe im Modus „trocken" ansehen: Der Bot erzeugt und rendert alles
+      in den Asset-Zweig, veröffentlicht aber nichts. Das ersetzt keine Freigabe,
+      zeigt aber, ob Ton und Schranken sitzen, bevor es live geht.

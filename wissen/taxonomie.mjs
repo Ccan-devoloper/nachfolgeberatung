@@ -50,10 +50,30 @@ export function gewicht(thema) {
   return m * r;
 }
 
-/* Ein Thema frühestens nach so vielen Tagen erneut. Deutlich länger als die
-   60 Tage im Steuerberater-Repo: Die Zielgruppe ist kleiner und bleibt
-   länger, Wiederholungen fallen schneller auf. */
-export const SPERRE_TAGE = 120;
+/* Wiederholungssperre.
+
+   Das Steuerberater-Repo sperrt pro THEMA (60 Tage) — bei 436 Themen und drei
+   Beiträgen am Tag geht das auf. Hier nicht: 41 Themen mal 2 Beiträge am Tag
+   wären nach drei Wochen durch, und der Planer würde die Sperre stillschweigend
+   übergehen (planer.mjs fällt auf den ungefilterten Pool zurück, wenn kein
+   Kandidat frei ist).
+
+   Deshalb zwei Stufen. Gesperrt wird die KOMBINATION aus Thema und Format —
+   dieselbe Sache aus einem anderen Blickwinkel ist ein neuer Beitrag, keine
+   Wiederholung. Zusätzlich hält eine kurze Themensperre denselben Stoff aus
+   zwei aufeinanderfolgenden Wochen heraus.
+
+   Rechnung zum Bestand: 115 Thema-Format-Paare auf Blockebene, 181 auf
+   Einzeleintragsebene. Bei zwei Beiträgen am Tag sind das 58 bis 91 Tage ohne
+   jede Wiederholung; das Format „aktuell" (Websuche) kommt unbegrenzt dazu. */
+export const SPERRE_TAGE = 240;        // Thema + Format: praktisch einmal pro Bestandszyklus
+export const THEMA_SPERRE_TAGE = 12;   // dasselbe Thema nicht zweimal in zwei Wochen
+
+/* Stories zehren den Bestand rund viermal so schnell auf wie Beiträge. Neun am
+   Tag sind für ein Examenspublikum richtig, für Unternehmer und Family Offices
+   nicht — sie lassen den Kanal wie einen Newsfeed wirken und wären hier nach
+   gut zwei Wochen durch. */
+export const STORIES_PRO_TAG = 4;
 
 /* Rechtsstand: Ab diesem Alter muss ein Thema überprüft werden, bevor es
    erneut in einen Beitrag darf. Stiftungs- und Aussensteuerrecht bewegen
