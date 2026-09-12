@@ -26,12 +26,14 @@ export default {
   fehler: [
     { fehler: "Der Gesellschaftsvertrag lässt nur Abkömmlinge zu, das Testament setzt den Ehegatten als Erben ein.", richtig: "Erbrecht und Gesellschaftsrecht widersprechen sich — der Ehegatte erbt einen Anteil, den er nicht halten darf, und bekommt eine Abfindung. Beide Urkunden gehören aufeinander abgestimmt." },
     { fehler: "Rückforderungsrechte werden als Standardklausel übernommen.", richtig: "Seit dem MoPeG kann die Insolvenz eines Gesellschafters zum Ausscheiden führen — eine Rückforderung, die erst danach greift, geht ins Leere. Der Rückfall muss vor Verfahrenseröffnung anknüpfen und dinglich gesichert sein.", norm: "§§ 129 ff. InsO" },
+    { fehler: "Die Grunderwerbsteuer wird bei der Gründung des Immobilienpools geprüft — und danach nie wieder.", richtig: "Gehen innerhalb von zehn Jahren 90 Prozent der Anteile über, entsteht sie erneut; die Befreiungen für Verwandte greifen nur teilweise. Jede Anteilsverschiebung ist ein Grunderwerbsteuerfall.", norm: "§ 1 Abs. 2a GrEStG" },
+    { fehler: "Der Gesellschaftsvertrag regelt Gewinnverteilung und Geschäftsführung — Streit, Exit und Deadlock nicht.", richtig: "Ein Familienpool ohne Konfliktregeln ist nur vertagter Streit: Abfindung, Kündigung, Pattsituation, Scheidung und Insolvenz eines Gesellschafters gehören in den Vertrag, bevor sie eintreten." },
     { fehler: "Die Poolvereinbarung für die GmbH-Anteile wird nach dem Erbfall geschlossen.", richtig: "Sie muss im Besteuerungszeitpunkt bestehen.", norm: "§ 13b Abs. 1 Nr. 3 ErbStG" },
   ],
   merksatz: "Der Familienpool ersetzt den Stifterwillen durch einen Familienwillen — und muss deshalb jede Generation neu verdient werden.",
   gewicht: { mandat: 3, reichweite: 3 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q3 Familiengesellschaft und Familienpool"],
-  verwandt: ["ersatzformen-ueberblick", "stiftung-warum", "betriebsvermoegen-verschonung", "stifterwille-ewigkeit"],
+  quellen: ["Q3 Familiengesellschaft und Familienpool", "Q7 Kap. 16, 24.1, Fall 28.12"],
+  verwandt: ["ersatzformen-ueberblick", "stiftung-warum", "betriebsvermoegen-verschonung", "stifterwille-ewigkeit", "immobilien-nachfolge-struktur", "minderjaehrige-nachfolge"],
 };

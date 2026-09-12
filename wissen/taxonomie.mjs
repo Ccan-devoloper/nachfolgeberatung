@@ -25,6 +25,10 @@ export const BEREICHE = {
   vermoegensschutz: { label: "Vermögensschutz und seine Grenzen", kurz: "Asset Protection", leitnormen: ["§ 2325 BGB", "§ 1375 BGB", "§§ 129 ff. InsO"] },
   ersatzformen:     { label: "Stiftungsersatzformen", kurz: "Ersatzformen", leitnormen: ["GmbHG", "HGB", "§§ 2197 ff. BGB"] },
   stiftungsrecht:   { label: "Stiftungsorganisation und Aufsicht", kurz: "Organisation", leitnormen: ["§§ 84 ff. BGB"] },
+  /* Ab Q7: das Beratungsfeld jenseits der Stiftung. */
+  schenkung:        { label: "Vorweggenommene Erbfolge und Schenkung", kurz: "Schenkung", leitnormen: ["§§ 516 ff. BGB", "§ 7 ErbStG"] },
+  gesellschaftsrecht: { label: "Gesellschaftsvertrag und Nachfolge", kurz: "Gesellschaftsrecht", leitnormen: ["HGB", "GmbHG", "§ 6 Abs. 3 EStG"] },
+  immobilien:       { label: "Immobilienvermögen in der Nachfolge", kurz: "Immobilien", leitnormen: ["§ 23 EStG", "GrEStG", "§ 13b Abs. 4 ErbStG"] },
 };
 
 /* Mandatsrelevanz: Wie oft entscheidet dieses Thema über ein echtes Mandat?

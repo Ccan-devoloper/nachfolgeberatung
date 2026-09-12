@@ -31,5 +31,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q3 Dauertestamentsvollstreckung und erbrechtliche Dauerbindungen", "Q1 Abschn. 3.2.4"],
-  verwandt: ["ersatzformen-ueberblick", "unternehmensnachfolge-stiftung", "verbrauchsstiftung"],
+  verwandt: ["ersatzformen-ueberblick", "unternehmensnachfolge-stiftung", "verbrauchsstiftung", "unternehmertestament"],
 };

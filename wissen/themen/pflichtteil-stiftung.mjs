@@ -32,5 +32,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q1 Abschn. 3.2.2", "Q3 Pflichtteil und eheliches Güterrecht als Gestaltungsgrenzen"],
-  verwandt: ["vermoegensschutz-grenzen", "stiftung-von-todes-wegen", "zugewinn-stiftung"],
+  verwandt: ["vermoegensschutz-grenzen", "stiftung-von-todes-wegen", "zugewinn-stiftung", "pflichtteil-fristanlauf"],
 };

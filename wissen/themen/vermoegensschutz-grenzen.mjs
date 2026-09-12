@@ -26,6 +26,7 @@ export default {
   ],
   fehler: [
     { fehler: "Die Satzung gibt den Begünstigten feste, einklagbare Ansprüche.", richtig: "Dann kann ein Gläubiger diesen Anspruch pfänden. Leistungen gehören ins Ermessen der Organe, Leistungskataloge nicht an rein objektive Kriterien.", norm: "§ 829 ZPO" },
+    { fehler: "Der Stifter bleibt Mitbegünstigter mit Versorgungsanspruch und behält sich Rückholrechte vor — 'zur Sicherheit'.", richtig: "Dann ist die Vermögensentäusserung wirtschaftlich nicht vollzogen, und die Zehnjahresfrist gegen Pflichtteilsergänzung beginnt möglicherweise nicht. Einfluss, Versorgung und Pflichtteilsfestigkeit sind ein Zielkonflikt, der offen entschieden werden muss.", norm: "§ 2325 Abs. 3 BGB" },
     { fehler: "Der Stifter ist zugleich alleiniger Vorstand.", richtig: "Für die Vorsatzanfechtung wird das Wissen des Vorstands der Stiftung zugerechnet. Ist der Stifter nicht im Vorstand, ist das Anfechtungsrisiko erheblich geringer.", norm: "§ 133 InsO, § 166 BGB" },
   ],
   zahlen: [
@@ -36,6 +37,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 3 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q1 Abschn. 3.2 bis 3.2.3", "Q3 Querschnitt Pflichtteil, Zugewinn und Gläubigerschutz"],
-  verwandt: ["pflichtteil-stiftung", "zugewinn-stiftung", "glaeubiger-anfechtung"],
+  quellen: ["Q1 Abschn. 3.2 bis 3.2.3", "Q3 Querschnitt Pflichtteil, Zugewinn und Gläubigerschutz", "Q7 Kap. 22"],
+  verwandt: ["pflichtteil-stiftung", "zugewinn-stiftung", "glaeubiger-anfechtung", "pflichtteil-fristanlauf"],
 };

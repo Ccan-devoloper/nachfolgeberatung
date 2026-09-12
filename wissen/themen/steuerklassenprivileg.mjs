@@ -31,11 +31,12 @@ export default {
   zahlen: [
     { wert: "400.000 €", bedeutung: "Freibetrag, wenn ein Kind der entferntest Berechtigte ist.", norm: "§ 16 Abs. 1 Nr. 2 ErbStG" },
     { wert: "20.000 €", bedeutung: "Freibetrag in Klasse III — was ohne das Privileg gälte, und was bei ausländischen Stiftungen gilt." },
+    { wert: "100.000 €", bedeutung: "Freibetrag, wenn Urenkel die entferntest Berechtigten sind — Steuerklasse I, aber nur ein Viertel des Kinderfreibetrags; so entschieden vom BFH 2024 für eine Satzung mit 'allen Abkömmlingen'.", norm: "§ 16 Abs. 1 Nr. 4 ErbStG" },
   ],
   merksatz: "Die Satzung bestimmt nicht nur, wer bekommt — sie bestimmt am Errichtungstag, was der Fiskus bekommt.",
   gewicht: { mandat: 3, reichweite: 2 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q2 Steuerklassenprivileg und Begünstigtenkreis, Grenzüberschreitende Einordnung"],
+  quellen: ["Q2 Steuerklassenprivileg und Begünstigtenkreis, Grenzüberschreitende Einordnung", "Q7 Kap. 8, Fall 28.2, 31.3"],
   verwandt: ["erbersatzsteuer", "zustiftung-steuerklasse", "versorgungsstiftung", "liechtenstein-vorteile"],
 };

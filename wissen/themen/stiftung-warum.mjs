@@ -43,5 +43,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q1 Abschn. 1, 3, 3.3"],
-  verwandt: ["stifterwille-ewigkeit", "vermoegensschutz-grenzen", "unternehmensnachfolge-stiftung", "ersatzformen-ueberblick"],
+  verwandt: ["stifterwille-ewigkeit", "vermoegensschutz-grenzen", "unternehmensnachfolge-stiftung", "ersatzformen-ueberblick", "nachfolge-als-system"],
 };

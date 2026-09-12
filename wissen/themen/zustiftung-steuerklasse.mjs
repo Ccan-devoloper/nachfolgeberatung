@@ -27,6 +27,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 2 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q2 Spätere Zustiftungen und sonstige Erwerbe"],
-  verwandt: ["steuerklassenprivileg", "stiftung-errichtung-ablauf", "betriebsvermoegen-verschonung"],
+  quellen: ["Q2 Spätere Zustiftungen und sonstige Erwerbe", "Q7 Kap. 8.1"],
+  verwandt: ["steuerklassenprivileg", "stiftung-errichtung-ablauf", "betriebsvermoegen-verschonung", "grundstock-sonstiges-vermoegen"],
 };

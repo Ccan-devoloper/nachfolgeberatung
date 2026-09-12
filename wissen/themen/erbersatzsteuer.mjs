@@ -44,6 +44,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 3 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q2 Ersatzerbschaftsteuer, Verrentung, § 26 ErbStG", "Q1 Abschn. 3.3", "Q3 Die Rolle der Ersatzerbschaftsteuer"],
+  quellen: ["Q2 Ersatzerbschaftsteuer, Verrentung, § 26 ErbStG", "Q1 Abschn. 3.3", "Q3 Die Rolle der Ersatzerbschaftsteuer", "Q7 Kap. 11, Fall 28.9"],
   verwandt: ["steuerklassenprivileg", "grosserwerb-verschonungsbedarf", "treuhandstiftung", "liechtenstein-vorteile"],
 };

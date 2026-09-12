@@ -31,5 +31,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q1 Abschn. 3.2.1"],
-  verwandt: ["vermoegensschutz-grenzen", "pflichtteil-stiftung", "steuerklassenprivileg"],
+  verwandt: ["vermoegensschutz-grenzen", "pflichtteil-stiftung", "steuerklassenprivileg", "ehevertrag-unternehmer"],
 };

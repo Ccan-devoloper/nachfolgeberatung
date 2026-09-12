@@ -30,6 +30,6 @@ export default {
   gewicht: { mandat: 2, reichweite: 2 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q5 Folien 97–101, 189"],
+  quellen: ["Q5 Folien 97–101, 189", "Q7 Fall 28.15"],
   verwandt: ["stiftung-errichtung-ablauf", "liechtenstein-vorteile", "stiftung-governance"],
 };

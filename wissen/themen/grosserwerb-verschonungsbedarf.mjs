@@ -12,6 +12,8 @@ export default {
     "Eine neu errichtete Stiftung, die nur mit begünstigtem Unternehmensvermögen ausgestattet ist, hat kaum verfügbares Vermögen — das Erlasspotenzial ist erheblich.",
     "Aber zehn Jahre lang wird nachgeschaut: Später erworbenes verfügbares Vermögen — Zustiftungen, Erträge, Erbschaften — löst Nachsteuer aus.",
     "Satzungsmässige Bindungen des Vermögens mindern das verfügbare Vermögen nach herrschender Lesart nicht.",
+    "Verfügbar ist auch, was zugleich mit dem Unternehmen erworben wird: Wer Betriebsvermögen und Depot in einem Akt auf dieselbe Stiftung überträgt, rechnet sich den Erlass selbst klein — Vermögensseparierung ist die Voraussetzung, nicht die Kür.",
+    "Die Verschonungsbedarfsprüfung steht 2026 mit auf dem Prüfstand des Bundesverfassungsgerichts — kein Modell sollte als dauerhafte Garantie verkauft werden.",
     "Die Bedarfsprüfung gilt entsprechend bei der Erbersatzsteuer; Antrag und Nachbeobachtung treffen dann die Stiftung selbst.",
   ],
   einsatzfelder: [
@@ -24,6 +26,7 @@ export default {
     { konstellation: "Übertragung eines Familienunternehmens im Wert von 80 Millionen Euro. Variante A auf die Tochter, die ein Depot von 10 Millionen besitzt. Variante B auf eine neue Familienstiftung ohne sonstiges Vermögen.", gestaltung: "A: Bis zu 5 Millionen aus dem Depot sind zur Steuerzahlung einzusetzen. B: Kein verfügbares Vermögen, Erlass nahezu vollständig — sofern in den zehn Folgejahren keine nennenswerte Liquidität in die Stiftung fliesst.", pointe: "Der Erlass ist keine Eintrittskarte, sondern eine Zehnjahresverpflichtung: Die Stiftung muss arm bleiben." },
   ],
   fehler: [
+    { fehler: "Unternehmen und Privatvermögen werden gleichzeitig in dieselbe Stiftung übertragen — 'alles in einem Akt'.", richtig: "Zugleich erworbenes nicht begünstigtes Vermögen ist verfügbares Vermögen. Das Depot gehört in eine zweite Struktur oder bleibt beim Stifter — sonst zahlt die Stiftung die Steuer aus genau dem Geld, das sie hätte schützen sollen.", norm: "§ 28a Abs. 2 ErbStG" },
     { fehler: "Nach dem Erlass wird das Wertpapiervermögen der Familie zugestiftet, 'damit alles zusammen ist'.", richtig: "Das ist verfügbares Vermögen im Nachbeobachtungszeitraum — Nachsteuer. Die Trennung von Unternehmensvermögen und Liquidität muss zehn Jahre halten.", norm: "§ 28a Abs. 4 ErbStG" },
   ],
   zahlen: [
@@ -35,6 +38,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 2 },
   antwortfreigabe: "keine",
   stand: "2026-09-12",
-  quellen: ["Q2 Unternehmensvermögen und erbschaftsteuerliche Verschonung, Verschonungsbedarfsprüfung bei der Ersatzerbschaftsteuer", "Q1 Abschn. 3.2.5"],
-  verwandt: ["betriebsvermoegen-verschonung", "erbersatzsteuer", "doppelstiftung"],
+  quellen: ["Q2 Unternehmensvermögen und erbschaftsteuerliche Verschonung, Verschonungsbedarfsprüfung bei der Ersatzerbschaftsteuer", "Q1 Abschn. 3.2.5", "Q7 Kap. 12, 31.7"],
+  verwandt: ["betriebsvermoegen-verschonung", "erbersatzsteuer", "doppelstiftung", "verschonung-bverfg-2026", "einstiegstest-90-prozent"],
 };

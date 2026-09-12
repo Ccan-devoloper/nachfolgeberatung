@@ -36,5 +36,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q1 Abschn. 4.1 bis 4.1.3"],
-  verwandt: ["stiftung-von-todes-wegen", "stiftung-governance", "pflichtteil-stiftung", "treuhandstiftung"],
+  verwandt: ["stiftung-von-todes-wegen", "stiftung-governance", "pflichtteil-stiftung", "treuhandstiftung", "grundstock-sonstiges-vermoegen"],
 };

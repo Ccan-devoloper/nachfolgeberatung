@@ -28,5 +28,5 @@ export default {
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
   quellen: ["Q5 Folien 40–42"],
-  verwandt: ["steuerklassenprivileg", "grosserwerb-verschonungsbedarf", "familienpool", "stiftung-warum"],
+  verwandt: ["steuerklassenprivileg", "grosserwerb-verschonungsbedarf", "familienpool", "stiftung-warum", "immobilien-nachfolge-struktur"],
 };

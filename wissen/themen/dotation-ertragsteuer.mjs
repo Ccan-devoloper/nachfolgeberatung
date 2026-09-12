@@ -20,7 +20,7 @@ export default {
     { situation: "Der Stifter hält eine wesentliche GmbH-Beteiligung mit hohen stillen Reserven und überlegt, sie vor der Stiftung zu verkaufen.", warum: "Der Verkauf kostet Einkommensteuer auf den Gewinn. Die Übertragung der Beteiligung selbst ist ertragsteuerneutral und kann erbschaftsteuerlich verschont sein." },
   ],
   fehler: [
-    { fehler: "Nur ein Teil des Mitunternehmeranteils wird auf die Stiftung übertragen.", richtig: "Das FG Baden-Württemberg hat 2025 entschieden: Aufdeckung der stillen Reserven. Buchwertneutral geht nur der ganze Anteil einschliesslich Sonderbetriebsvermögen — wer teilen will, bringt den Anteil erst in eine neue Mitunternehmerschaft ein und überträgt dann den ganzen neuen Anteil.", norm: "§ 6 Abs. 3 S. 1 EStG" },
+    { fehler: "Nur ein Teil des Mitunternehmeranteils wird auf die Stiftung übertragen.", richtig: "Das FG Baden-Württemberg hat 2025 entschieden: Aufdeckung der stillen Reserven; die Revision liegt beim BFH — bis zur Entscheidung gilt die Übertragung eines Teilanteils als Hochrisikogestaltung. Buchwertneutral geht nur der ganze Anteil einschliesslich Sonderbetriebsvermögen — wer teilen will, bringt den Anteil erst in eine neue Mitunternehmerschaft ein und überträgt dann den ganzen neuen Anteil.", norm: "§ 6 Abs. 3 S. 1 EStG" },
     { fehler: "Wesentliche Betriebsgrundlagen sollen zurückbehalten werden, aber der Anteil geht 'im Übrigen' über.", richtig: "Dann ist es kein ganzer Anteil mehr. Was nicht mitgehen soll, muss vorher aus dem betrieblichen Zusammenhang — verkauft, entnommen oder auf eine andere Mitunternehmerschaft übertragen; die Gesamtplanrechtsprechung gilt hier nicht. Bei 100-Prozent-Beteiligungen: umgekehrter Carve-out — erst die zurückzubehaltenden Güter auslagern, dann die Rumpfgesellschaft übertragen." },
     { fehler: "Verlustvorträge der übertragenen GmbH werden eingeplant.", richtig: "Bei Übertragung von mehr als 50 Prozent entfallen sie grundsätzlich; die Ausnahme für vorweggenommene Erbfolge legt die Finanzverwaltung eng aus — auf Angehörige. Stille-Reserven-Klausel oder fortführungsgebundener Verlustvortrag prüfen.", norm: "§ 8c KStG" },
     { fehler: "Einzelne Maschinen oder Grundstücke werden aus dem Betrieb in die Stiftung 'ausgelagert'.", richtig: "Das ist eine Entnahme mit Aufdeckung der stillen Reserven. Buchwertneutral geht nur der ganze Betrieb, Teilbetrieb oder Mitunternehmeranteil.", norm: "§ 6 Abs. 1 Nr. 4, Abs. 3 EStG" },
@@ -30,6 +30,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 1 },
   antwortfreigabe: "keine",
   stand: "2026-09-12",
-  quellen: ["Q2 Ertragsteuerliche Folgen auf Ebene des Stifters, Umsatz- und Grunderwerbsteuer"],
-  verwandt: ["betriebsvermoegen-verschonung", "stiftung-laufende-steuer", "stiftung-errichtung-ablauf"],
+  quellen: ["Q2 Ertragsteuerliche Folgen auf Ebene des Stifters, Umsatz- und Grunderwerbsteuer", "Q7 Kap. 19, 31.8"],
+  verwandt: ["betriebsvermoegen-verschonung", "stiftung-laufende-steuer", "stiftung-errichtung-ablauf", "sonderbetriebsvermoegen", "niessbrauch-kg-anteil"],
 };

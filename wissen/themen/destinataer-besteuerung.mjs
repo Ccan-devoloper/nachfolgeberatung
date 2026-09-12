@@ -26,6 +26,7 @@ export default {
     { nachteil: "Keine Neutralität bei Sachleistungen", erklaerung: "Die Wohnung zum Nulltarif ist steuerpflichtig — und muss bewertet werden." },
   ],
   fehler: [
+    { fehler: "Ein älterer Aufsatz empfiehlt, für die Stiftung ein steuerliches Einlagekonto feststellen zu lassen, um Substanz steuerfrei auszukehren.", richtig: "Seit 2023 überholt: Der BFH verneint die Rechtsgrundlage für ein Einlagekonto bei rechtsfähigen privaten Stiftungen. Kapitalrückführung und Auflösung müssen anders strukturiert werden.", norm: "§ 27 Abs. 7 KStG" },
     { fehler: "Man geht davon aus, dass sich die steuerfrei auskehrbare Substanz von selbst ergibt.", richtig: "Selbst wenn man die Auskehr dem Grunde nach für steuerfrei hält, ist offen, woran sie sich bemisst: am Zeitwert des Vermögens bei Zugang oder an den fortgeführten Anschaffungskosten. Wer darauf baut, braucht die Bewertung zum Zuwendungszeitpunkt dokumentiert — rückwirkend ist sie nicht zu beschaffen." },
     { fehler: "Eine einmalige Ermessenszahlung an ein Enkelkind wird für steuerfrei gehalten, 'weil es keinen Anspruch hatte'.", richtig: "Gerade das ist der Fall des BFH: Auch ohne Anspruch Kapitalertrag, wenn der Empfänger nach der Satzung begünstigt sein kann." },
     { fehler: "Die Herkunft ausgeschütteter Mittel wird nicht dokumentiert.", richtig: "Ertrag, Rückzahlung von Dotationskapital und sonstige Vermögensübertragung sind nicht gleich zu behandeln. Ohne Dokumentation gilt im Zweifel: Ertrag." },
@@ -37,6 +38,6 @@ export default {
   gewicht: { mandat: 3, reichweite: 3 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q2 Besteuerung der Begünstigten, Organvergütungen und Sachleistungen, Schenkungsteuerliche Abgrenzung", "Q1 Abschn. 1"],
+  quellen: ["Q2 Besteuerung der Begünstigten, Organvergütungen und Sachleistungen, Schenkungsteuerliche Abgrenzung", "Q1 Abschn. 1", "Q7 Kap. 9.3, 10, 31.4, 31.5"],
   verwandt: ["stiftung-laufende-steuer", "versorgungsstiftung", "stiftung-aufloesung"],
 };

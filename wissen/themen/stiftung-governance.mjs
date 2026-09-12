@@ -22,12 +22,13 @@ export default {
   ],
   fehler: [
     { fehler: "Nur ein Vorstand, kein Kontrollorgan — 'wir sind ja eine Familie'.", richtig: "Nach dem Tod des Stifters kontrolliert dann niemand mehr. Ein Kuratorium ist bei Familienstiftungen der Regelfall, nicht die Ausnahme.", norm: "§ 84 Abs. 4 BGB" },
+    { fehler: "Vorstandsentscheidungen werden per Handschlag getroffen und nicht dokumentiert.", richtig: "Seit der Reform schützt die Business Judgment Rule Organmitglieder, die auf angemessener Informationsgrundlage vernünftig zum Wohl der Stiftung handeln — nachweisen kann das nur, wer Protokoll und Unterlagen hat.", norm: "§ 84a Abs. 2 BGB" },
     { fehler: "Der Stifter hält sich für den Eigentümer, weil er Vorstand ist.", richtig: "Er ist Organ, gebunden an seinen eigenen Errichtungswillen. Wer gegen die Satzung handelt, handelt pflichtwidrig — auch als Stifter." },
   ],
   merksatz: "Eigentum abgeben und Einfluss behalten ist kein Widerspruch — es ist die Satzung.",
   gewicht: { mandat: 3, reichweite: 2 },
   antwortfreigabe: "abstrakt",
   stand: "2026-09-12",
-  quellen: ["Q1 Abschn. 4.2, 4.1.2 (a) cc), 5"],
-  verwandt: ["stifterwille-ewigkeit", "glaeubiger-anfechtung", "stiftung-errichtung-ablauf"],
+  quellen: ["Q1 Abschn. 4.2, 4.1.2 (a) cc), 5", "Q7 Kap. 6.2"],
+  verwandt: ["stifterwille-ewigkeit", "glaeubiger-anfechtung", "stiftung-errichtung-ablauf", "satzung-zukunftsklauseln"],
 };
