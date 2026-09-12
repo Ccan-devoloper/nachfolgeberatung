@@ -1,0 +1,35 @@
+/* Q2 · Ertragsteuerliche Folgen auf Ebene des Stifters, Verkehrsteuern */
+export default {
+  id: "dotation-ertragsteuer",
+  titel: "Übertragen ohne zu verkaufen — die Dotation aus Sicht des Stifters",
+  bereich: "ertragsteuer",
+  kurz: "Wer Privatvermögen oder einen ganzen Betrieb unentgeltlich auf die Stiftung überträgt, realisiert keinen Gewinn; die stillen Reserven wandern mit — einzelne Wirtschaftsgüter aus dem Betriebsvermögen dagegen werden entnommen.",
+  normen: ["§ 6 Abs. 3 EStG", "§ 6 Abs. 1 Nr. 4 EStG", "§ 17 Abs. 2 EStG", "§ 23 Abs. 1 EStG", "§ 3 Nr. 2 GrEStG", "§ 1 Abs. 1a UStG"],
+  kern: [
+    "Privatvermögen: Die unentgeltliche Übertragung führt beim Stifter zu keinem Veräusserungsgewinn; die Stiftung führt Anschaffungskosten und Fristen fort.",
+    "Ein Verkauf vor der Stiftung dagegen realisiert den Gewinn beim Stifter — die 'Liquidierung vor Stiftung' ist selten klug, wenn das Vermögen selbst übertragen werden kann.",
+    "Betriebsvermögen: Ein Betrieb, Teilbetrieb oder ganzer Mitunternehmeranteil geht zu Buchwerten über; der BFH hat 2026 bestätigt, dass eine Stiftung Rechtsnachfolgerin sein kann.",
+    "Einzelne Wirtschaftsgüter aus dem Betriebsvermögen werden dagegen entnommen — stille Reserven werden aufgedeckt; die Sonderregeln für gemeinnützige Zwecke helfen der Familienstiftung nicht.",
+    "Die 100-Prozent-Beteiligung im Betriebsvermögen ist ein Sonderfall: Die Teilbetriebsfiktion öffnet nicht ohne Weiteres die Buchwertfortführung — vorher einordnen, nicht nachher rekonstruieren.",
+    "Unentgeltlich bleibt unentgeltlich, auch bei negativem Kapitalkonto — aber die Übernahme echter privater Verbindlichkeiten kann Gegenleistung sein; ein 'Darlehenskonto' beweist noch nichts.",
+    "Wer die Beteiligung nach der Einbringung verkaufen will: Eine ertragsteuerliche Sperrfrist gibt es nicht, nur die erbschaftsteuerliche Nachsteuer bei Verkauf binnen fünf oder sieben Jahren — und schon nach einem Jahr übersteigt die Ersparnis bei der Ertragsteuer die Nachsteuer bei der Erbschaftsteuer.",
+    "Wer zuvor die Thesaurierungsbegünstigung genutzt hat, muss mit Nachversteuerung rechnen — prüfen, ob der Nachversteuerungsbetrag auf eine andere Mitunternehmerschaft übergehen kann.",
+    "Grundstücke: Grunderwerbsteuer entsteht dem Grunde nach, ist aber befreit, soweit Schenkungsteuer anfällt — bei übernommenen Belastungen gesondert prüfen.",
+  ],
+  einsatzfelder: [
+    { situation: "Der Stifter hält eine wesentliche GmbH-Beteiligung mit hohen stillen Reserven und überlegt, sie vor der Stiftung zu verkaufen.", warum: "Der Verkauf kostet Einkommensteuer auf den Gewinn. Die Übertragung der Beteiligung selbst ist ertragsteuerneutral und kann erbschaftsteuerlich verschont sein." },
+  ],
+  fehler: [
+    { fehler: "Nur ein Teil des Mitunternehmeranteils wird auf die Stiftung übertragen.", richtig: "Das FG Baden-Württemberg hat 2025 entschieden: Aufdeckung der stillen Reserven. Buchwertneutral geht nur der ganze Anteil einschliesslich Sonderbetriebsvermögen — wer teilen will, bringt den Anteil erst in eine neue Mitunternehmerschaft ein und überträgt dann den ganzen neuen Anteil.", norm: "§ 6 Abs. 3 S. 1 EStG" },
+    { fehler: "Wesentliche Betriebsgrundlagen sollen zurückbehalten werden, aber der Anteil geht 'im Übrigen' über.", richtig: "Dann ist es kein ganzer Anteil mehr. Was nicht mitgehen soll, muss vorher aus dem betrieblichen Zusammenhang — verkauft, entnommen oder auf eine andere Mitunternehmerschaft übertragen; die Gesamtplanrechtsprechung gilt hier nicht. Bei 100-Prozent-Beteiligungen: umgekehrter Carve-out — erst die zurückzubehaltenden Güter auslagern, dann die Rumpfgesellschaft übertragen." },
+    { fehler: "Verlustvorträge der übertragenen GmbH werden eingeplant.", richtig: "Bei Übertragung von mehr als 50 Prozent entfallen sie grundsätzlich; die Ausnahme für vorweggenommene Erbfolge legt die Finanzverwaltung eng aus — auf Angehörige. Stille-Reserven-Klausel oder fortführungsgebundener Verlustvortrag prüfen.", norm: "§ 8c KStG" },
+    { fehler: "Einzelne Maschinen oder Grundstücke werden aus dem Betrieb in die Stiftung 'ausgelagert'.", richtig: "Das ist eine Entnahme mit Aufdeckung der stillen Reserven. Buchwertneutral geht nur der ganze Betrieb, Teilbetrieb oder Mitunternehmeranteil.", norm: "§ 6 Abs. 1 Nr. 4, Abs. 3 EStG" },
+    { fehler: "Die fremdfinanzierte Immobilie wird übertragen und die Grunderwerbsteuer mit Hinweis auf die Schenkung abgehakt.", richtig: "Soweit die Stiftung Verbindlichkeiten übernimmt, liegt Entgeltlichkeit vor — insoweit keine Befreiung.", norm: "§ 3 Nr. 2 GrEStG" },
+  ],
+  merksatz: "Stille Reserven verschwinden nicht in der Stiftung — sie ziehen um. Wer vorher verkauft, zahlt sie aus.",
+  gewicht: { mandat: 3, reichweite: 1 },
+  antwortfreigabe: "keine",
+  stand: "2026-09-12",
+  quellen: ["Q2 Ertragsteuerliche Folgen auf Ebene des Stifters, Umsatz- und Grunderwerbsteuer"],
+  verwandt: ["betriebsvermoegen-verschonung", "stiftung-laufende-steuer", "stiftung-errichtung-ablauf"],
+};

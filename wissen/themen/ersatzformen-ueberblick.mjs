@@ -1,0 +1,60 @@
+/* Q3 · Einführung, Gestaltungsziele, Rechtsformvergleich, Hybride, Familienverein */
+export default {
+  id: "ersatzformen-ueberblick",
+  titel: "Muss es eine Stiftung sein? Die fünf Funktionen und ihre Ersatzformen",
+  bereich: "ersatzformen",
+  kurz: "Eine Familienstiftung erfüllt fünf Funktionen — Bündelung, Entzug, Governance, Versorgung, Entkopplung vom Erbgang; wer nur einige davon braucht, ist mit einer Ersatzform oft besser bedient.",
+  normen: ["§§ 80 ff. BGB", "§ 1 Abs. 1 Nr. 4 ErbStG", "§ 2210 BGB"],
+  kern: [
+    "Die Stiftung bündelt Vermögen, entzieht es der Einzelverfügung, ordnet die Governance, versorgt Begünstigte und entkoppelt die Nachfolge vom Erbgang. Diese Funktionen hängen zusammen, sind aber trennbar.",
+    "Die eigentliche Entscheidung lautet nicht 'Stiftung oder nicht', sondern 'historischer Wille oder generationenübergreifende Mitentscheidung'.",
+    "Je weniger die dauerhafte Verselbständigung des Vermögens selbst das Ziel ist, desto eher ist eine Ersatzform überlegen.",
+    "Ersatzformen vermeiden die Erbersatzsteuer nicht durch eine Sonderregel, sondern weil ihre Anteile vererblich bleiben — der Generationenwechsel bleibt steuerlich sichtbar. Die Erbersatzsteuer ist ein Preisindikator, kein Auswahlmassstab.",
+    "Ausnahme, die überrascht: Der rechtsfähige Familienverein unterliegt der Erbersatzsteuer ausdrücklich — als Vermeidungsstruktur ist er ungeeignet.",
+    "Grosse Vermögen werden meist modular strukturiert: Holding für Beteiligungen, KG für Immobilien, Testamentsvollstreckung für den Übergang, Beirat für die Governance.",
+    "Vor jeder zusätzlichen Ebene sechs Fragen: Wer hält? Wer kontrolliert? Wer erhält Erträge? Wer kann die Regeln ändern? Wer trägt Insolvenz- und Haftungsrisiken? Welche Ebene löst welche Steuer aus?",
+  ],
+  mythos: {
+    behauptung: "Ersatzformen sind Stiftungen zweiter Klasse — für die, die sich keine echte leisten.",
+    richtigstellung: "Sie lösen andere Prioritäten. Der Familienpool hält die Familie als Eigentümer, die Stiftungs-GmbH professionalisiert die Holding, die Treuhandstiftung bindet flexibel, die Testamentsvollstreckung überbrückt. Wer kontrollierte Flexibilität will, ist mit ihnen präziser bedient als mit der Stiftung.",
+  },
+  einsatzfelder: [
+    { situation: "Familie soll Eigentümerin bleiben und mitentscheiden.", warum: "Familienpool oder Holding — Mitgliedschaft bleibt, Governance anpassbar." },
+    { situation: "Stiftungsnahe Zweckbindung, aber hohe Flexibilität.", warum: "Treuhandstiftung — kein Anerkennungsverfahren, privatautonome Anpassung." },
+    { situation: "Familienleitung bei fortbestehender Familienbeteiligung.", warum: "Stiftung & Co. KG — die Stiftung führt, die Familie hält Kommanditanteile." },
+    { situation: "Gemeinwohlbindung und Familienkontrolle kombinieren.", warum: "Doppelstiftung — Vermögen, Stimmen und Erträge werden funktional aufgeteilt." },
+    { situation: "Nur ein Übergang bis zur nächsten verantwortlichen Generation.", warum: "Dauertestamentsvollstreckung — die Bindung endet planmässig." },
+    { situation: "Thesaurierung und professionelle Holding-Governance.", warum: "Stiftungs-GmbH oder Familienholding — eigener Rechtsträger, flexible Verfassung." },
+    { situation: "Unabänderlicher Asset Lock bei der Unternehmensnachfolge, ohne eigentümerlosen Träger.", warum: "Künftig möglicherweise die Gesellschaft mit gebundenem Vermögen — derzeit noch nicht verfügbar." },
+  ],
+  gegenueberstellung: {
+    links: {
+      label: "Familienstiftung",
+      punkte: [
+        { krit: "Eigener Rechtsträger", wert: "Ja, mitgliederlos" },
+        { krit: "Familie bleibt Inhaberin", wert: "Nein — sie ist begünstigt" },
+        { krit: "Dauerbindung", wert: "Unbegrenzt, kaum änderbar" },
+        { krit: "Asset Protection", wert: "Am weitesten — nach Ablauf der Fristen" },
+        { krit: "Staatliche Aufsicht", wert: "Ja" },
+        { krit: "Erbersatzsteuer", wert: "Alle 30 Jahre", norm: "§ 1 Abs. 1 Nr. 4 ErbStG" },
+      ],
+    },
+    rechts: {
+      label: "Familienpool",
+      punkte: [
+        { krit: "Eigener Rechtsträger", wert: "Ja, mitgliedschaftlich" },
+        { krit: "Familie bleibt Inhaberin", wert: "Ja, über Anteile" },
+        { krit: "Dauerbindung", wert: "Mittel bis hoch, aber änderbar" },
+        { krit: "Asset Protection", wert: "Mittel — der Anteil bleibt in der Person" },
+        { krit: "Staatliche Aufsicht", wert: "Nein" },
+        { krit: "Erbersatzsteuer", wert: "Nein — dafür Erbschaftsteuer bei jedem Generationenwechsel" },
+      ],
+    },
+  },
+  merksatz: "Zuerst die Funktion, dann die Form: Wer die Rechtsform vor dem Ziel wählt, wählt meistens falsch.",
+  gewicht: { mandat: 3, reichweite: 3 },
+  antwortfreigabe: "abstrakt",
+  stand: "2026-09-12",
+  quellen: ["Q3 Einführung, Gestaltungsziele und Auswahlmassstab, Stiftungs-Verein und Familienverein, Hybride Gestaltungen, Rechtsformvergleich, Fazit"],
+  verwandt: ["stiftung-warum", "familienpool", "stiftungs-gmbh", "stiftung-co-kg", "doppelstiftung", "treuhandstiftung", "dauertestamentsvollstreckung", "gmgv"],
+};

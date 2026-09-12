@@ -32,20 +32,33 @@ BERUFSRECHT.md     verbindliche Leitplanken für jeden erzeugten Inhalt
 - Formatableitung: Welche Beitragsformate ein Thema tragen kann, ergibt sich aus
   seinen Blöcken — nicht aus einer Pflegeliste, die veraltet
 - Berufsrechtliche Leitplanken, jeweils mit ihrer technischen Entsprechung
-- Zwei vollständig ausgefüllte Beispielthemen
+- **41 Themen** aus fünf Quellen (`wissen/rohmaterial/QUELLEN.md`): Einsatzfelder,
+  Vorteile und Nachteile, Alternativen, Ersatzformen, Lebenszyklus-Besteuerung,
+  Vermögensschutz und seine Grenzen, Liechtenstein, Reform 2023 — mit fiktiven
+  Beispielen in den Grössenordnungen, die in der Beratung vorkommen
+
+**Vorgaben des Kanzleiinhabers**
+
+- Zielgruppe sind Mandanten. Keine Prüfschemata; stattdessen Vorteile, Einsatzfelder,
+  Alternativen, Ersatzformen, Unternehmens- und Vermögensnachfolge im Ganzen.
+- Beispiele sind erwünscht — fiktiv, um Konstellationen vor Augen zu führen.
+- Tagesbudget 0,25 € für alle Beiträge und Stories zusammen (wie im Steuerberater-Repo:
+  Sonnet für die Texte, Haiku für den Faktencheck, harter Tagesdeckel).
+- Vor jeder Veröffentlichung ein oder mehrere Gegenchecks — automatisch und, in der
+  ersten Phase, durch den Kanzleiinhaber selbst.
+- Autoren und Fundstellen werden in Beiträgen nicht genannt.
 
 **Als Nächstes**
 
-1. **Material einspeisen** — läuft, sobald es da ist. Aus Rohmaterial werden Themen.
-2. **Bot portieren** aus `Ccan-devoloper/steuerberater`, Ordner `social/`. Rund 7.000
+1. **Bot portieren** aus `Ccan-devoloper/steuerberater`, Ordner `social/`. Rund 7.000
    Zeilen, die weitgehend domänenneutral sind: Rendern über Chromium, Instagram Graph
    API, Reels mit Sprachausgabe, lernende Veröffentlichungszeiten, Kostendeckel,
    Eigenständigkeitsprüfung, Weiterverteilung nach LinkedIn und YouTube. Anzupassen
    sind im Wesentlichen drei Stellen: der Themenpool (gegen `wissen/` statt gegen eine
    Webseite), die Beitragsformate und der Kalender.
-3. **Freigabe-Queue** — der wichtigste Unterschied zum Steuerberater-Bot: Der Bot
+2. **Freigabe-Queue** — der wichtigste Unterschied zum Steuerberater-Bot: Der Bot
    erzeugt, ein Mensch gibt frei, erst dann wird veröffentlicht. Formatweise lockerbar.
-4. **Stil** — zwei Entwurfsrichtungen liegen vor und sind noch nicht entschieden.
+3. **Stil** — zwei Entwurfsrichtungen liegen vor und sind noch nicht entschieden.
 
 ## Warum nicht dasselbe Repo wie der Steuerberater-Bot
 

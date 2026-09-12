@@ -1,0 +1,40 @@
+/* Q1 · Errichtung, Stiftungsgeschäft, Satzung, Anerkennungsverfahren */
+export default {
+  id: "stiftung-errichtung-ablauf",
+  titel: "So entsteht eine Familienstiftung",
+  bereich: "stiftungsrecht",
+  kurz: "Eine Familienstiftung entsteht durch schriftliches Stiftungsgeschäft mit Satzung und die Anerkennung der Landesbehörde — und was danach nicht in der Satzung steht, lässt sich kaum noch nachholen.",
+  normen: ["§ 80 Abs. 2 BGB", "§ 81 Abs. 1, 3 BGB", "§ 82 BGB", "§ 82a BGB", "§ 82c BGB"],
+  kern: [
+    "Das Stiftungsgeschäft ist eine einseitige Erklärung des Stifters; die Satzung ist ihre Anlage und regelt mindestens Zweck, Name, Sitz und Bildung des Vorstands.",
+    "Schriftform genügt — auch für die Widmung eines Grundstücks oder von GmbH-Anteilen, für die sonst der Notar nötig wäre.",
+    "Die Behörde muss anerkennen, wenn die gesetzlichen Anforderungen erfüllt sind und die dauernde Zweckerfüllung gesichert erscheint — ein Rechtsanspruch, keine Gnade.",
+    "Für diese 'Lebensfähigkeitsprognose' verlangen viele Behörden ein Vermögen deutlich über 100.000 Euro; ein gesetzliches Minimum gibt es nicht.",
+    "Der Satzungsentwurf sollte vorab mit der Behörde abgestimmt werden — Nachbesserungen nach der Anerkennung sind schwer.",
+    "Ab 1. Januar 2028 tragen Stiftungen den Zusatz 'eingetragene Stiftung' oder 'e. S.'.",
+    "Rechte, die durch Abtretung übergehen, gehen mit der Anerkennung von selbst auf die Stiftung über — GmbH-Anteile eingeschlossen, ohne notarielle Abtretung.",
+  ],
+  ablauf: [
+    { schritt: "Ziele klären", hinweis: "Welche der Stiftungsfunktionen wird wirklich gebraucht — Bindung, Versorgung, Nachfolge, Schutz? Das entscheidet, ob es überhaupt eine Stiftung sein muss." },
+    { schritt: "Vermögen und Familie prüfen", hinweis: "Pflichtteile, Güterstand, Anfechtungsfristen, Verschonung von Betriebsvermögen — was bis zur Übertragung geregelt sein muss." },
+    { schritt: "Satzung entwerfen", hinweis: "Zweck, Begünstigte, Organe, Sonderrechte des Stifters, Ersatzzwecke, Änderungsvorbehalte, Anlagerichtlinien, Anfallberechtigte.", norm: "§ 81 Abs. 1 BGB" },
+    { schritt: "Mit der Stiftungsbehörde abstimmen", hinweis: "Vorab, nicht nachträglich. Landesrecht und Verwaltungspraxis unterscheiden sich." },
+    { schritt: "Steuerlich absichern", hinweis: "Bei grösseren oder zeitversetzten Dotationen: verbindliche Auskunft einholen." },
+    { schritt: "Stiftungsgeschäft unterzeichnen und Anerkennung beantragen", hinweis: "Schriftform reicht. Mit der Anerkennung entsteht die Stiftung und erhält das gewidmete Vermögen.", norm: "§§ 80 Abs. 2, 82a BGB" },
+    { schritt: "Vermögen übertragen", hinweis: "Was nicht kraft Gesetzes übergeht — Grundstücke, bewegliche Sachen — wird nach den allgemeinen Regeln übertragen." },
+  ],
+  fehler: [
+    { fehler: "Erst gründen, dann über Pflichtteile und Güterstand nachdenken.", richtig: "Umgekehrt. Erbverzichte und Ehegattenzustimmung gehören vor die Dotation, sonst laufen die Fristen gegen die Stiftung." },
+    { fehler: "Die Satzung wird 'schlank' gehalten und Details der Praxis überlassen.", richtig: "Nach der Anerkennung ist die Satzung der Stifterwille. Was fehlt, fehlt für immer — Ersatzzwecke, Änderungskompetenzen, Anfallberechtigte." },
+  ],
+  zahlen: [
+    { wert: "> 100.000 €", bedeutung: "Was viele Stiftungsbehörden für die Lebensfähigkeitsprognose verlangen — ein gesetzliches Minimum gibt es nicht." },
+    { wert: "2028", bedeutung: "Ab dann heisst jede Stiftung 'e. S.' — eingetragene Stiftung.", norm: "§ 82c BGB" },
+  ],
+  merksatz: "Die Stiftung ist am Tag der Anerkennung fertig — alles Wesentliche muss davor passieren.",
+  gewicht: { mandat: 3, reichweite: 2 },
+  antwortfreigabe: "abstrakt",
+  stand: "2026-09-12",
+  quellen: ["Q1 Abschn. 4.1 bis 4.1.3"],
+  verwandt: ["stiftung-von-todes-wegen", "stiftung-governance", "pflichtteil-stiftung", "treuhandstiftung"],
+};

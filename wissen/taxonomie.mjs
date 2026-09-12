@@ -22,6 +22,8 @@ export const BEREICHE = {
   international:    { label: "Außensteuerrecht und Wegzug", kurz: "International", leitnormen: ["§ 6 AStG", "§ 15 AStG"] },
   nachfolge:        { label: "Unternehmensnachfolge", kurz: "Nachfolge", leitnormen: ["§§ 13a, 13b ErbStG"] },
   erbrecht:         { label: "Erb- und Familienrecht", kurz: "Erbrecht", leitnormen: ["§§ 2303 ff. BGB"] },
+  vermoegensschutz: { label: "Vermögensschutz und seine Grenzen", kurz: "Asset Protection", leitnormen: ["§ 2325 BGB", "§ 1375 BGB", "§§ 129 ff. InsO"] },
+  ersatzformen:     { label: "Stiftungsersatzformen", kurz: "Ersatzformen", leitnormen: ["GmbHG", "HGB", "§§ 2197 ff. BGB"] },
   stiftungsrecht:   { label: "Stiftungsorganisation und Aufsicht", kurz: "Organisation", leitnormen: ["§§ 84 ff. BGB"] },
 };
 
