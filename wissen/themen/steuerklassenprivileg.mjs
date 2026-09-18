@@ -18,8 +18,6 @@ export default {
   ],
   beispiele: [
     { konstellation: "Ein Stifter überträgt 5 Millionen Euro. Variante A: Begünstigte sind Ehefrau und Kinder. Variante B: 'alle Abkömmlinge in gerader Linie'.", gestaltung: "A: Klasse I, Freibetrag nach dem Kind, Steuersatz nach 4,6 Millionen. B: Klasse I bleibt, aber der Freibetrag sinkt auf den des Urenkels — 100.000 Euro.", pointe: "Ein Wort in der Satzung, 300.000 Euro Freibetrag Unterschied. Und das Wort war gut gemeint." },
-  ],
-  beispiele: [
     { konstellation: "Vier Satzungen, dasselbe Vermögen, vier Freibeträge.", gestaltung: "Nur Kinder und Kinder verstorbener Kinder: Klasse I, 400.000 Euro. Kinder und deren Abkömmlinge: Klasse I, 100.000 Euro — der Urenkel zählt. Eltern und deren Abkömmlinge: Klasse III, 20.000 Euro — weil auch Grossnichten und Grossneffen berechtigt sind. Kinder und Geschwister: Klasse II, 20.000 Euro.", pointe: "Wer 'die Familie' begünstigen will, sollte vorher aufschreiben, wer das steuerlich ist. Notfalls sind zwei Stiftungen billiger als eine." },
     { konstellation: "Neben den Abkömmlingen soll die vom Stifter errichtete gemeinnützige Stiftung jährlich zehn Prozent des Überschusses erhalten.", gestaltung: "Die Finanzverwaltung sieht darin formal einen familienfremden Berechtigten — Klasse III für die ganze Errichtung.", pointe: "Gemeinwohl und Familie in einer Stiftung kostet das Privileg. Die Lösung heisst Doppelstiftung." },
   ],

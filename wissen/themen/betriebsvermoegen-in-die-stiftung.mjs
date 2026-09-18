@@ -1,0 +1,38 @@
+/* Q10 Abschn. F.2c, F.2d · Übertragung von Betriebsvermögen */
+export default {
+  id: "betriebsvermoegen-in-die-stiftung",
+  titel: "Ein Mitunternehmeranteil geht nur ganz — oder gar nicht",
+  bereich: "ertragsteuer",
+  kurz: "Betriebsvermögen lässt sich steuerneutral auf eine Stiftung übertragen, aber nur als ganze Sachgesamtheit samt Sonderbetriebsvermögen. Ein Teil eines Mitunternehmeranteils genügt nicht — dafür braucht es einen Zwischenschritt.",
+  normen: ["§ 6 Abs. 3 S. 1 EStG", "§ 4 Abs. 1 S. 2 EStG", "§ 24 UmwStG", "§ 34a Abs. 6 EStG", "§ 8c KStG"],
+  kern: [
+    "Die Übertragung von Betriebsvermögen auf eine Stiftung ist im Grundsatz eine Entnahme — Verwendung für betriebsfremde Zwecke — und deckt damit die stillen Reserven auf.",
+    "Steuerneutral geht es nur bei qualifizierten Sachgesamtheiten: ein Betrieb, ein Teilbetrieb oder ein ganzer Mitunternehmeranteil, und zwar einschliesslich des Sonderbetriebsvermögens.",
+    "Der Teil eines Mitunternehmeranteils reicht ausdrücklich nicht. Die Vorschrift, die das sonst erlaubt, ist hier nicht anwendbar.",
+    "Wer nur einen Teil übertragen will, braucht deshalb zwei Schritte: erst den Mitunternehmeranteil in eine neue Mitunternehmerschaft einbringen, dann von dieser den ganzen Anteil übertragen.",
+    "Sollen wesentliche Betriebsgrundlagen im Sonderbetriebsvermögen — typischerweise das Grundstück — nicht mitgehen, müssen sie vorher aus dem betrieblichen Zusammenhang gelöst werden: verkauft, entnommen oder auf eine andere Mitunternehmerschaft übertragen.",
+    "Die Gesamtplanrechtsprechung steht dem nicht entgegen; unwesentliche Betriebsgrundlagen dürfen ohnehin zurückbleiben.",
+    "Einzelne Wirtschaftsgüter lassen sich nicht steuerneutral übertragen. Das Buchwertprivileg für Sachspenden gilt nur für gemeinnützige Stiftungen, nicht für Familienstiftungen.",
+    "Eine Falle für alle, die thesauriert haben: Wurde die Thesaurierungsbegünstigung genutzt, löst die Übertragung die Nachversteuerung aus. Ob sich der Nachversteuerungsbetrag auf eine andere Mitunternehmerschaft übertragen lässt, gehört vorher geprüft.",
+    "Und eine für Kapitalgesellschaften: Gehen mehr als die Hälfte der Anteile über, entfallen die Verlustvorträge. Die Erleichterung für vorweggenommene Erbfolge legt die Finanzverwaltung eng aus — sie gilt nur für Angehörige, und eine Stiftung ist keine.",
+    "Umsatzsteuerlich ist die Übertragung eines Betriebs oder Teilbetriebs regelmässig eine Geschäftsveräusserung im Ganzen; Anteile an Kapital- und Personengesellschaften sind befreit. Nur bei einzelnen Wirtschaftsgütern droht eine unentgeltliche Wertabgabe.",
+  ],
+  ablauf: [
+    { schritt: "Bestandsaufnahme des Sonderbetriebsvermögens", hinweis: "Welche wesentlichen Betriebsgrundlagen hängen am Anteil? Sie müssen mit — oder vorher raus." },
+    { schritt: "Thesaurierung prüfen", hinweis: "Wurde begünstigt thesauriert, droht die Nachversteuerung.", norm: "§ 34a Abs. 6 EStG" },
+    { schritt: "Verlustvorträge prüfen", hinweis: "Bei Kapitalgesellschaftsanteilen über 50 Prozent gehen sie unter.", norm: "§ 8c KStG" },
+    { schritt: "Struktur wählen", hinweis: "Ganzer Anteil direkt — oder Einbringung als Zwischenschritt, wenn nur ein Teil übergehen soll.", norm: "§ 24 UmwStG" },
+    { schritt: "Erst dann übertragen", hinweis: "Die Reihenfolge entscheidet über die Steuerneutralität, nicht die Absicht." },
+  ],
+  fehler: [
+    { fehler: "Der Kommanditanteil geht auf die Stiftung, das Betriebsgrundstück bleibt beim Stifter.", richtig: "Das Grundstück ist wesentliche Betriebsgrundlage im Sonderbetriebsvermögen. Bleibt es zurück, ist die Übertragung nicht steuerneutral — es sei denn, es wurde vorher sauber gelöst.", norm: "§ 6 Abs. 3 S. 1 EStG" },
+    { fehler: "Es soll nur die Hälfte des Mitunternehmeranteils in die Stiftung.", richtig: "Ein Teil-Mitunternehmeranteil ist hier nicht begünstigt. Der übliche Weg führt über eine Einbringung und die anschliessende Übertragung des dann ganzen Anteils.", norm: "§ 24 UmwStG" },
+    { fehler: "Einzelne Maschinen oder Wertpapiere werden „der Stiftung geschenkt“.", richtig: "Jedes einzelne Wirtschaftsgut realisiert seine stillen Reserven. Das Buchwertprivileg gibt es nur bei gemeinnützigen Empfängern." },
+  ],
+  merksatz: "Bei Betriebsvermögen entscheidet nicht, was übertragen wird, sondern ob es eine vollständige Einheit ist.",
+  gewicht: { mandat: 3, reichweite: 2 },
+  antwortfreigabe: "keine",
+  stand: "2026-09-18",
+  quellen: ["Q10 Abschn. F.2c, F.2d"],
+  verwandt: ["dotation-ertragsteuer", "sonderbetriebsvermoegen", "unternehmensnachfolge-stiftung", "betriebsvermoegen-verschonung"],
+};

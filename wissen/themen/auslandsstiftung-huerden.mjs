@@ -8,7 +8,7 @@ export default {
   kern: [
     "Hürde eins, die Übertragung selbst: Sie löst Schenkungsteuer aus. Das Steuerklassenprivileg, das bei der deutschen Familienstiftung auf den entferntest Berechtigten abstellt, gilt für ausländische Stiftungen nicht — es bleibt bei Steuerklasse III.",
     "Steuerklasse III bedeutet 30 Prozent bis zu einem Erwerb von sechs Millionen Euro und darüber 50 Prozent. Der Unterschied zur Klasse I ist der grösste Einzelposten der ganzen Struktur.",
-    "Der Europäische Gerichtshof hat diese Beschränkung 2025 gebilligt: Sie ist kohärent, weil ausländische Stiftungen im Gegenzug nicht der Erbersatzsteuer unterliegen.",
+    "Der Europäische Gerichtshof hat die Beschränkung 2025 im Grundsatz gebilligt: Sie ist kohärent, weil ausländische Stiftungen im Gegenzug nicht der Erbersatzsteuer unterliegen. Endgültig entschieden ist die Sache aber nicht — das vorlegende Gericht prüft die Verhältnismässigkeit im engeren Sinne noch.",
     "Gegenmittel: begünstigtes Betriebsvermögen übertragen, dessen Verschonung auch hier gilt — oder statt zu übertragen zu verkaufen.",
     "Hürde zwei, die Wegzugsteuer: Wer Anteile an einer Kapitalgesellschaft unentgeltlich auf eine nicht unbeschränkt steuerpflichtige Empfängerin überträgt, deckt die stillen Reserven fiktiv auf. Vorausgesetzt sind sieben Jahre unbeschränkte Steuerpflicht innerhalb der letzten zwölf.",
     "Gegenmittel: die Anteile in Betriebsvermögen einlegen, eine gewerbliche Personengesellschaft zwischenschalten oder den Verkauf statt der Schenkung wählen.",

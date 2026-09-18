@@ -9,7 +9,7 @@ export default {
     "Errichtung in Liechtenstein: Mindestkapital 30.000 Franken, Euro oder Dollar; Rechtsfähigkeit mit der Stiftungserklärung — keine Anerkennung, wenige Tage.",
     "Privatnützige Stiftungen unterliegen in Liechtenstein keiner obligatorischen Aufsicht; in Deutschland ist die Anerkennung je nach Bundesland langwierig, mit hohen Anforderungen an Satzung und Grundstock.",
     "Die deutsche Erbersatzsteuer trifft nur Stiftungen mit Sitz oder Geschäftsleitung im Inland — die Liechtensteiner Stiftung nicht.",
-    "Dafür gilt bei Errichtung Steuerklasse III: Das Privileg ist auf inländische Stiftungen beschränkt, und der EuGH hat das 2025 mit Blick auf die Erbersatzsteuer als kohärent gebilligt.",
+    "Dafür gilt bei Errichtung Steuerklasse III: Das Privileg ist auf inländische Stiftungen beschränkt. Der EuGH hat die Beschränkung 2025 im Grundsatz als kohärent gebilligt, weil Auslandsstiftungen im Gegenzug keine Erbersatzsteuer trifft — die Verhältnismässigkeit im engeren Sinne prüft das vorlegende Gericht allerdings noch.",
     "Und die Zurechnungsbesteuerung: Ohne Entlastungsbeweis werden die Einkünfte dem Stifter zugerechnet, als gäbe es die Stiftung nicht.",
     "Eine ausländische Struktur trägt nur bei echtem grenzüberschreitendem Sachverhalt — die blosse Erwartung, deutsche Steuerfolgen zu vermeiden, ist kein tragfähiges Motiv.",
     "In Liechtenstein wird die Stiftung meist über einen Treuhänder als hinterlegte Stiftung errichtet — der Treuhänder ist Pflicht; Organe sind Stiftungsrat und oft ein Protektor. Unternehmensträgerstiftung und Komplementärstellung sind dort unzulässig, Beteiligungsträgerstiftungen erlaubt.",

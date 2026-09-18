@@ -6,7 +6,7 @@ export default {
   kurz: "Keine Behörde erkennt sie an: Die liechtensteinische Stiftung ist mit der Stiftungserklärung rechtsfähig, braucht 30.000 an Kapital und wird meist nicht vom Stifter selbst, sondern von einem Treuhänder errichtet.",
   normen: ["Art. 552 § 13 PGR", "Art. 552 § 14 PGR", "Art. 552 § 16 PGR", "§ 4 PGR", "§§ 80 ff. BGB"],
   kern: [
-    "Das liechtensteinische Stiftungsrecht steht in einem einzigen Artikel des Personen- und Gesellschaftsrechts, Art. 552 PGR, dort in rund vier Dutzend Paragrafen. Es stammt aus 1924 und wurde 2009 behutsam reformiert — im Kern wurde geschriebenes Recht aus dem, was ohnehin galt.",
+    "Das liechtensteinische Stiftungsrecht steht in einem einzigen Artikel des Personen- und Gesellschaftsrechts, Art. 552 PGR, dort in rund vier Dutzend Paragrafen. Es stammt aus dem Jahr 1926 und wurde 2009 behutsam reformiert — im Kern wurde geschriebenes Recht aus dem, was ohnehin galt.",
     "Der Stiftungsbegriff entspricht der deutschen Anschauung: eine rechtlich verselbstständigte Vermögensmasse mit Zweck, Vermögen und Organisation. Der Unterschied liegt nicht im Begriff, sondern im Weg dorthin.",
     "Rechtsfähig wird die Stiftung mit der Stiftungserklärung — nicht mit einem Anerkennungsbescheid. Nur gemeinnützige Stiftungen und solche, die ein kaufmännisches Gewerbe betreiben, müssen vorher ins Handelsregister.",
     "Mindestkapital sind 30.000 Franken, Euro oder Dollar. Eine Pflicht, dieses Kapital dauerhaft zu erhalten, kennt das Gesetz nicht — anders als der deutsche Grundstock.",
@@ -44,7 +44,7 @@ export default {
   ],
   zahlen: [
     { wert: "30.000", bedeutung: "Mindestkapital in Franken, Euro oder Dollar — ohne Pflicht, es zu erhalten.", norm: "Art. 552 § 13 PGR" },
-    { wert: "1924", bedeutung: "Aus diesem Jahr stammt das liechtensteinische Stiftungsrecht; die Reform von 2009 hat es vor allem verschriftlicht." },
+    { wert: "1926", bedeutung: "Aus diesem Jahr stammt das liechtensteinische Stiftungsrecht; die Reform von 2009 hat es vor allem verschriftlicht." },
   ],
   merksatz: "Die Errichtung in Liechtenstein ist die einfachste Übung — teuer und schwierig wird erst der Weg des Vermögens dorthin.",
   gewicht: { mandat: 3, reichweite: 3 },

@@ -1,0 +1,40 @@
+/* Q10 Abschn. H.6 · Stiftungs-Verein */
+export default {
+  id: "stiftungsverein",
+  titel: "Eine Stiftung aus Vereinsrecht bauen",
+  bereich: "ersatzformen",
+  kurz: "Das Vereinsrecht lässt sich so gestalten, dass ein Verein wie eine Stiftung wirkt. Die politischen Stiftungen sind so organisiert. Für Familienvermögen hat die Form allerdings eine eingebaute Schwachstelle.",
+  normen: ["§ 25 BGB", "§ 73 BGB", "§ 21 BGB", "§ 33 BGB"],
+  kern: [
+    "Im Vereinsrecht gilt Satzungsautonomie. Damit lässt sich eine Stiftung weitgehend nachbilden: fremdnütziger Zweck, gebundenes Vermögen, Gremien statt Mitgliederherrschaft.",
+    "Die bekanntesten Beispiele sind die politischen Stiftungen in Deutschland — sie sind überwiegend Vereine, nicht Stiftungen.",
+    "Damit ein Verein die Bezeichnung „Stiftung“ führen darf, braucht er vor allem eine kapitalmässige Ausstattung, die den fremdnützigen Zweck zumindest für eine gewisse Zeit trägt.",
+    "Die Zweckloyalität der Mitglieder lässt sich absichern: durch Auswahlkriterien für die Aufnahme, durch automatischen Ausschluss bei Zweckwidrigkeit, durch Mehrheitserfordernisse für Satzungsänderungen.",
+    "Auch das Vermögen lässt sich dem Stiftungsvermögen annähern, indem Ansprüche der Mitglieder darauf ausgeschlossen werden.",
+    "Die Vorteile sind die der Ersatzformen allgemein: keine laufende Stiftungsaufsicht, geringere Anforderungen an das Vermögen, mehr Beweglichkeit bei Zweck- und Satzungsänderungen, mehr Einfluss der Gründer.",
+    "Die eingebaute Schwachstelle ist die Mitgliederzahl: Sinkt sie unter das gesetzliche Minimum, droht die Löschung. Eine Struktur, die Generationen halten soll, hängt damit an der Bereitschaft von Menschen, Mitglied zu bleiben.",
+    "Zweite Einschränkung: Ein Verein lässt sich nicht von Todes wegen errichten. Wer erst im Testament eine Struktur schaffen will, kann diesen Weg nicht gehen.",
+    "Dritte: Die gemeinnützigkeitsrechtlichen Stiftungsvorteile fehlen — keine Vermögensstockspende, keine Versorgung des Stifters aus dem Drittel, keine erweiterte Rücklagenbildung.",
+    "Für Familienvermögen ist der Verein deshalb selten die erste Wahl. Wo Partizipation gewollt ist und Ewigkeit nicht das Ziel, kann er passen.",
+  ],
+  vorteile: [
+    { vorteil: "Keine Aufsicht, keine Anerkennung", erklaerung: "Der Verein entsteht durch Eintragung, nicht durch behördliche Prüfung des Konzepts." },
+    { vorteil: "Beweglichkeit", erklaerung: "Zweck- und Satzungsänderungen sind leichter als bei der Stiftung, deren Satzungsänderung unter Genehmigungsvorbehalt steht." },
+    { vorteil: "Offen für Beteiligung", erklaerung: "Neue Mitglieder können aufgenommen werden — für eine Struktur, die Menschen einbinden soll, ist das ein Vorzug." },
+  ],
+  nachteile: [
+    { nachteil: "Keine gesicherte Kontinuität", erklaerung: "Unterschreitet der Verein die Mindestmitgliederzahl, droht die Löschung.", norm: "§ 73 BGB" },
+    { nachteil: "Keine Errichtung von Todes wegen", erklaerung: "Der Verein braucht lebende Gründer; das Testament allein schafft ihn nicht." },
+    { nachteil: "Keine Stiftungsvorteile im Gemeinnützigkeitsrecht", erklaerung: "Vermögensstockspende, Stifterdrittel und erweiterte Rücklagen gelten nur für Stiftungen." },
+  ],
+  alternativen: [
+    { form: "Rechtsfähige Stiftung", wannBesser: "Ewigkeit und Unabhängigkeit von Personen das Ziel sind", warum: "Nur sie ist von Mitgliedern unabhängig und kann von Todes wegen entstehen." },
+    { form: "Stiftungs-GmbH", wannBesser: "Kontrolle beim Gründer bleiben soll", warum: "Die GmbH bietet dieselbe Beweglichkeit, aber über Anteile statt über Mitgliedschaft." },
+  ],
+  merksatz: "Ein Verein kann aussehen wie eine Stiftung — aber er lebt davon, dass genug Menschen Mitglied bleiben.",
+  gewicht: { mandat: 1, reichweite: 2 },
+  antwortfreigabe: "abstrakt",
+  stand: "2026-09-18",
+  quellen: ["Q10 Abschn. H.6"],
+  verwandt: ["ersatzformen-ueberblick", "stiftungs-gmbh", "treuhandstiftung-erbersatzsteuer", "familienpool"],
+};
