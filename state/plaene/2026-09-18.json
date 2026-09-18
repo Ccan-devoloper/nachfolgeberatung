@@ -1,0 +1,51 @@
+{
+  "datum": "2026-09-18",
+  "erzeugt": "2026-09-18T10:01:54.625Z",
+  "trocken": true,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "09:30",
+      "format": "carousel",
+      "themaId": "anlagerichtlinie-stiftung",
+      "themaTitel": "Die Anlagerichtlinie — ein Korridor, keine Produktliste",
+      "schwerpunkt": "de",
+      "tiefe": "experte",
+      "blickwinkel": "fehlerfalle",
+      "cta": "follow",
+      "status": "geplant",
+      "gegencheck": {
+        "ergebnis": "unklar",
+        "notiz": "",
+        "quellen": []
+      },
+      "fehler": "2026-09-18T10:01:54.642Z Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "08:46",
+      "art": "hook",
+      "themaId": "immobilien-nachfolge-struktur",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "09:50",
+      "art": "hinweis",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "13:53",
+      "art": "wissen",
+      "themaId": "grundstock-sonstiges-vermoegen",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
