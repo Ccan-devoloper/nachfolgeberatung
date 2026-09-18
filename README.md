@@ -18,6 +18,18 @@ wissen/            das materielle Recht — der eigentliche Wert des Projekts
   rohmaterial/       unverarbeitetes Material
 tools/
   pruefe-wissen.mjs  `npm run pruefe`
+social/            der Instagram-Bot (Node, GitHub Actions, stündlich)
+  src/lauf.mjs       Tageslauf: Plan → Gegencheck → Schreiben → Hooks → Prüfen → Rendern → Posten
+  src/planer.mjs     Themenmix nach Quote, Sperren, CTA-Rotation, Uhrzeiten
+  src/autor.mjs      Carousels und Stories (Claude), Sie-Form, 7-Folien-Aufbau
+  src/hooks.mjs      Hook-Engine: fünf Hooks, Bewertung 1–10 in fünf Dimensionen, nur ≥ 40/50
+  src/pruefung.mjs   Eigenständigkeit, Namen, Sperrliste, Formgrenzen
+  src/faktencheck.mjs / faktencheck-openai.mjs   zwei unabhängige Prüfer
+  src/gegencheck.mjs Web-Gegencheck vor dem Schreiben, Recherche für Aktuelles
+  src/stile.mjs / vorlagen.mjs / render.mjs   zwei Stile (Kontor, Dossier), Diagramm-Vorlagen, Chromium
+  beispiele/         Beispielinhalte (für Prompt, Tests, Vorschau)
+.github/workflows/instagram.yml   stündlicher Lauf mit Weckkette
+SETUP.md           Secrets, Profil, Trockenlauf – was von Hand passieren muss
 BERUFSRECHT.md     verbindliche Leitplanken für jeden erzeugten Inhalt
 FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im Automatikbetrieb
 ```
@@ -50,25 +62,34 @@ FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im A
 - Zielgruppe sind Mandanten. Keine Prüfschemata; stattdessen Vorteile, Einsatzfelder,
   Alternativen, Ersatzformen, Unternehmens- und Vermögensnachfolge im Ganzen.
 - Beispiele sind erwünscht — fiktiv, um Konstellationen vor Augen zu führen.
-- Tagesbudget 0,25 € für alle Beiträge und Stories zusammen (wie im Steuerberater-Repo:
-  Sonnet für die Texte, Haiku für den Faktencheck, harter Tagesdeckel).
+- Tagesbudget 0,35 € für alle Beiträge und Stories zusammen (Sonnet für die Texte,
+  Haiku für Hook-Bewertung und Faktencheck I, OpenAI für Faktencheck II, harter
+  Tagesdeckel über beide Anbieter).
 - **Vollautomatisch, keine manuelle Freigabe.** Vor jeder Veröffentlichung laufen
   mehrere Gegenchecks, darunter einer gegen den aktuellen Rechtsstand im Netz.
   Was nicht besteht, erscheint nicht — siehe [`FREIGABE.md`](FREIGABE.md).
 - Autoren und Fundstellen werden in Beiträgen nicht genannt.
 
+- **Der Bot** (`social/`), portiert aus dem Steuerberater-Repo und auf das
+  Strategiepapier „Instagram-Strategie Stiftungsrecht & Nachfolge“ umgebaut: ein
+  Carousel am Tag (7 Folien: Hook → Problem → Erklärung I–III/Beispiel → Einordnung →
+  Take-away), drei bis vier Stories, Themenmix 30/20/12/8/12/10/8 über ein rollendes
+  28-Tage-Fenster, Tiefe 40/40/20, Hook-Engine mit Bewertung, CTA-Rotation, Sicherheits-
+  felder je Beitrag (Rechtsstand, Jurisdiktion, Primärquelle, Normen, Unsicherheit,
+  Prüfstatus), Lernschleife nach 48 h und 7 Tagen. Grafiken statt Fotos:
+  Strukturdiagramme, Zeitachsen, Vergleiche, Zahlen. Zwei Stile, Kontor und Dossier.
+- **Veröffentlichungsschranke** ([`FREIGABE.md`](FREIGABE.md)): Web-Gegencheck des
+  Themas, Eigenständigkeits- und Formprüfung, Hook-Mindestpunkte, Faktencheck I
+  (Claude) und Faktencheck II (OpenAI, streng). Was nicht besteht, erscheint nicht.
+- **Trockenlauf**: die ersten drei Tage nach dem ersten Lauf werden alle Inhalte nur
+  erzeugt und im Asset-Zweig abgelegt; danach schaltet der Bot von selbst auf live.
+
 **Als Nächstes**
 
-1. **Bot portieren** aus `Ccan-devoloper/steuerberater`, Ordner `social/`. Rund 7.000
-   Zeilen, die weitgehend domänenneutral sind: Rendern über Chromium, Instagram Graph
-   API, Reels mit Sprachausgabe, lernende Veröffentlichungszeiten, Kostendeckel,
-   Eigenständigkeitsprüfung, Weiterverteilung nach LinkedIn und YouTube. Anzupassen
-   sind im Wesentlichen drei Stellen: der Themenpool (gegen `wissen/` statt gegen eine
-   Webseite), die Beitragsformate und der Kalender.
-2. **Veröffentlichungsschranke** bauen ([`FREIGABE.md`](FREIGABE.md)) — sechs
-   Prüfungen vor jedem Beitrag, davon vier kostenlos und lokal. Kein Entwurf, der
-   eine nicht besteht, erscheint.
-3. **Stil** — zwei Entwurfsrichtungen liegen vor und sind noch nicht entschieden.
+1. **Stil entscheiden** (Kontor oder Dossier) – Variable `IG_STIL`.
+2. **Themenpool auffüllen** für Liechtenstein (20 % Soll, 2 Themen) und Gemeinnützigkeit
+   (12 % Soll, 3 Themen) – siehe `wissen/rohmaterial/QUELLEN.md`, Abschnitt Lücken.
+3. **Reels** (Di/Do/Sa) mit dem Diagramm-Motion-Ansatz aus dem Strategiepapier.
 
 ## Warum nicht dasselbe Repo wie der Steuerberater-Bot
 
@@ -85,6 +106,10 @@ spart. Zusammenführen lässt sich später, wenn sich Muster gezeigt haben.
 npm run pruefe     # Themenbestand prüfen
 ```
 
-Node 20 oder neuer. Bis der Bot portiert ist, gibt es ausser der Prüfung nichts
-auszuführen — bewusst: ein halb angepasster Bot, der Rechtsinhalte veröffentlicht, wäre
-schlechter als keiner.
+```bash
+cd social && npm install
+npm test            # Bot-Tests ohne API
+npm run vorschau    # Beispielkacheln in beiden Stilen
+```
+
+Node 22. Einrichtung des Kanals: [`SETUP.md`](SETUP.md).

@@ -1,0 +1,192 @@
+name: Instagram-Bot
+
+# Läuft stündlich (UTC 05:35–20:35 = 07:35–22:35 Sommerzeit bzw. 06:35–21:35 Winterzeit)
+# und veröffentlicht, was im Tagesplan fällig ist: ein Carousel und drei bis vier
+# Stories am Tag. Die ersten Tage nach dem ersten Lauf sind ein Trockenlauf
+# (IG_TROCKEN_TAGE, Standard 3): alles wird erzeugt und im Asset-Zweig
+# abgelegt, nichts veröffentlicht. Danach schaltet der Bot von selbst auf live.
+# Hinweis: GitHub registriert den Zeitplan erst, wenn diese Datei auf dem
+# Standardzweig liegt; ein Lauf ist idempotent (nur fällige Einträge).
+on:
+  schedule:
+    - cron: "35 5-20 * * *"
+  workflow_dispatch:
+    inputs:
+      modus:
+        description: "trocken = erzeugen und in den Asset-Zweig legen · live = veröffentlichen (nur nach der Trockenlaufphase) · planen = Tagesplan zeigen · nachrendern = gespeicherten Tag ohne KI-Kosten neu bauen · startklar = prüfen, ob alles bereitsteht · vorschau = Beispielkacheln in beiden Stilen"
+        type: choice
+        default: trocken
+        options: [trocken, live, planen, nachrendern, startklar, vorschau]
+      datum:
+        description: "Nur für nachrendern: welcher Tag (JJJJ-MM-TT, leer = heute)"
+        type: string
+        default: ""
+      alles:
+        description: "Alle Einträge des Tages sofort (Uhrzeiten ignorieren)"
+        type: boolean
+        default: false
+      wecker:
+        description: "Intern: Lauf gehört zur Weckkette"
+        type: boolean
+        default: false
+      nur_wecken:
+        description: "Intern: nichts veröffentlichen, nur die Weckkette fortsetzen"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  posten:
+    if: github.event.inputs.nur_wecken != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    concurrency:
+      group: instagram-bot
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+
+      - name: Abhängigkeiten
+        working-directory: social
+        run: npm ci
+
+      - name: Chromium-Cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('social/package-lock.json') }}
+
+      - name: Chromium installieren
+        working-directory: social
+        run: |
+          sudo rm -f /etc/apt/sources.list.d/google-chrome*.list /etc/apt/sources.list.d/google.list || true
+          npx playwright install --with-deps chromium || npx playwright install chromium
+
+      - name: Tageslauf
+        working-directory: social
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          IG_TOKEN_KEY: ${{ secrets.IG_TOKEN_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          OPENAI_PREIS_EIN: ${{ vars.OPENAI_PREIS_EIN }}
+          OPENAI_PREIS_AUS: ${{ vars.OPENAI_PREIS_AUS }}
+          IG_STIL: ${{ vars.IG_STIL }}
+          IG_HANDLE: ${{ vars.IG_HANDLE }}
+          IG_WEBSITE: ${{ vars.IG_WEBSITE }}
+          IG_ANZEIGENAME: ${{ vars.IG_ANZEIGENAME }}
+          IG_TAGESBUDGET_USD: ${{ vars.IG_TAGESBUDGET_USD }}
+          IG_TROCKEN_TAGE: ${{ vars.IG_TROCKEN_TAGE }}
+          IG_KI_MODELL: ${{ vars.IG_KI_MODELL }}
+          IG_KI_MODELL_PRUEFUNG: ${{ vars.IG_KI_MODELL_PRUEFUNG }}
+          IG_KI_VERSUCHE: ${{ vars.IG_KI_VERSUCHE }}
+          IG_FAKTENCHECK: ${{ vars.IG_FAKTENCHECK }}
+          IG_OPENAI_FAKTENCHECK: ${{ vars.IG_OPENAI_FAKTENCHECK }}
+          IG_OPENAI_STRIKT: ${{ vars.IG_OPENAI_STRIKT }}
+          IG_GEGENCHECK: ${{ vars.IG_GEGENCHECK }}
+          IG_HOOK_MINDESTPUNKTE: ${{ vars.IG_HOOK_MINDESTPUNKTE }}
+          IG_STORIES_PRO_TAG: ${{ vars.IG_STORIES_PRO_TAG }}
+          IG_REELS: ${{ vars.IG_REELS }}
+          IG_LERNEN: ${{ vars.IG_LERNEN }}
+          IG_INTERAKTION: ${{ vars.IG_INTERAKTION }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          BERICHT_EMAIL: ${{ vars.BERICHT_EMAIL }}
+          SMTP_HOST: ${{ vars.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ vars.SMTP_FROM }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ vars.THREADS_USER_ID }}
+          FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          LI_ACCESS_TOKEN: ${{ secrets.LI_ACCESS_TOKEN }}
+          LI_PERSON_URN: ${{ vars.LI_PERSON_URN }}
+          # Manuell: nur „live“ veröffentlicht. Zeitplan: live, außer die Variable IG_PAUSE ist auf true.
+          # Die Trockenlaufphase der ersten Tage regelt der Bot selbst (state/trockenlauf.json).
+          IG_DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.modus != 'live') || vars.IG_PAUSE == 'true' }}
+          IG_PAUSE: ${{ vars.IG_PAUSE }}
+          GIT_AUTHOR_NAME: instagram-bot
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          IG_ABLEGEN: "1"
+        run: |
+          case "${{ github.event.inputs.modus }}" in
+            startklar) node bin/startklar.mjs; exit $? ;;
+            nachrendern) node bin/nachrendern.mjs "${{ github.event.inputs.datum }}"; exit $? ;;
+            vorschau) node bin/vorschau.mjs alle; exit $? ;;
+          esac
+          ARGS=""
+          if [ "${{ github.event.inputs.modus }}" = "planen" ]; then ARGS="--nur-planen"; fi
+          if [ "${{ github.event.inputs.alles }}" = "true" ]; then ARGS="$ARGS --alles"; fi
+          node src/lauf.mjs $ARGS
+
+      - name: Ausgaben sichern
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: instagram-ausgabe-${{ github.run_id }}
+          path: social/out
+          if-no-files-found: ignore
+          retention-days: 7
+
+  # Weckkette: GitHub löst „schedule“ nicht zuverlässig aus. Nach jedem
+  # planmäßigen Lauf wartet ein kleiner Job bis kurz nach dem nächsten Slot
+  # und startet den Lauf selbst, falls GitHub ihn nicht gestartet hat.
+  weckruf:
+    needs: posten
+    if: always() && (github.event_name == 'schedule' || github.event.inputs.wecker == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Bis zum nächsten Slot warten, dann nachsehen und ggf. wecken
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -e
+          juengere_kette() {
+            local n=0 st
+            for st in in_progress queued pending waiting requested; do
+              n=$((n + $(gh api "repos/$GH_REPO/actions/runs?status=$st&per_page=50" --jq "[.workflow_runs[] | select(.path == \".github/workflows/instagram.yml\" and .id > $GITHUB_RUN_ID)] | length")))
+            done
+            echo $n
+          }
+          if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
+          jetzt=$(date -u +%s)
+          h=$((10#$(date -u +%H))); m=$((10#$(date -u +%M)))
+          tag=$(date -u +%F)
+          if [ $m -lt 35 ]; then zielh=$h; else zielh=$((h+1)); fi
+          if [ $zielh -lt 5 ]; then zielh=5; fi
+          if [ $zielh -gt 20 ]; then zielh=5; tag=$(date -u -d "$tag +1 day" +%F); fi
+          slot=$(date -u -d "$tag $(printf %02d $zielh):35:00" +%s)
+          warten=$((slot + 420 - jetzt))
+          echo "Nächster Slot: $(date -u -d @$slot +%FT%TZ) – warte $warten s"
+          if [ $warten -gt 19800 ]; then
+            sleep 19800
+            if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
+            gh workflow run instagram.yml -f modus=live -f wecker=true -f nur_wecken=true
+            exit 0
+          fi
+          [ $warten -gt 0 ] && sleep $warten
+          if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
+          seit=$(date -u -d @$slot +%FT%TZ)
+          n=$(gh api "repos/$GH_REPO/actions/runs?created=>=$seit&per_page=20" --jq '[.workflow_runs[] | select(.path == ".github/workflows/instagram.yml")] | length')
+          echo "Läufe seit $seit: $n"
+          if [ "$n" = "0" ]; then
+            echo "Zeitplan hat nicht ausgelöst – wecke selbst."
+            gh workflow run instagram.yml -f modus=live -f wecker=true
+          else
+            echo "Zeitplan hat ausgelöst – dieser Lauf übernimmt die Kette."
+          fi

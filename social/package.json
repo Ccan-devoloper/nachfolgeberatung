@@ -1,0 +1,21 @@
+{
+  "name": "nachfolgeberatung-instagram-bot",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vollautomatische Carousels und Stories für den Instagram-Kanal „Stiftungsrecht & Nachfolge“",
+  "scripts": {
+    "lauf": "node src/lauf.mjs",
+    "planen": "node src/lauf.mjs --nur-planen",
+    "rendern": "node src/lauf.mjs --nur-rendern",
+    "vorschau": "node bin/vorschau.mjs",
+    "startklar": "node bin/startklar.mjs",
+    "token:pruefen": "node src/instagram.mjs --pruefen",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.123.0",
+    "nodemailer": "^6.10.1",
+    "playwright": "^1.56.1"
+  }
+}

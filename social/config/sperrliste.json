@@ -1,0 +1,4 @@
+{
+  "_hinweis": "Namen, die in keinem Beitrag vorkommen dürfen – Mandanten, Kollegen, Kanzleien, Autoren. Der Bot prüft jeden Text dagegen (pruefung.mjs). Beispiele sind ohnehin anonym.",
+  "namen": []
+}
