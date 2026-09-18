@@ -27,6 +27,7 @@ export default {
   fehler: [
     { fehler: "Der Kommanditanteil geht auf die Stiftung, das Betriebsgrundstück bleibt beim Stifter.", richtig: "Das Grundstück ist wesentliche Betriebsgrundlage im Sonderbetriebsvermögen. Bleibt es zurück, ist die Übertragung nicht steuerneutral — es sei denn, es wurde vorher sauber gelöst.", norm: "§ 6 Abs. 3 S. 1 EStG" },
     { fehler: "Es soll nur die Hälfte des Mitunternehmeranteils in die Stiftung.", richtig: "Ein Teil-Mitunternehmeranteil ist hier nicht begünstigt. Der übliche Weg führt über eine Einbringung und die anschliessende Übertragung des dann ganzen Anteils.", norm: "§ 24 UmwStG" },
+    { fehler: "Für die Stiftung wird mit der Tarifbegrenzung gerechnet, die Erwerbern von Betriebsvermögen in ungünstigen Steuerklassen sonst hilft.", richtig: "Die Verschonungen für Betriebsvermögen gelten auch bei der Stiftung — die Tarifbegrenzung dagegen nicht. Für sie bleibt nur das Steuerklassenprivileg nach dem entferntest Berechtigten.", norm: "§ 19a ErbStG" },
     { fehler: "Einzelne Maschinen oder Wertpapiere werden „der Stiftung geschenkt“.", richtig: "Jedes einzelne Wirtschaftsgut realisiert seine stillen Reserven. Das Buchwertprivileg gibt es nur bei gemeinnützigen Empfängern." },
   ],
   merksatz: "Bei Betriebsvermögen entscheidet nicht, was übertragen wird, sondern ob es eine vollständige Einheit ist.",
