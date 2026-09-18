@@ -1,0 +1,36 @@
+/* Q10 Abschn. C.3 · Anerkennungsverfahren */
+export default {
+  id: "anerkennung-satzungssitz",
+  titel: "Der Sitz entscheidet, wer über Ihre Stiftung wacht",
+  bereich: "stiftungsrecht",
+  kurz: "Zuständig ist die Behörde am Satzungssitz — und den wählt der Stifter grundsätzlich frei. Wer nichts bestimmt, landet am letzten inländischen Wohnsitz des Stifters.",
+  normen: ["§ 81 Abs. 4 S. 3 BGB", "§ 82 BGB", "§ 80 Abs. 1 BGB", "§ 83 BGB"],
+  kern: [
+    "Örtlich zuständig für Anerkennung und Aufsicht ist die Behörde am Sitz der Stiftung. Der Sitz ist der in der Satzung bestimmte Satzungssitz.",
+    "Auf den Verwaltungssitz kommt es seit der Reform nicht mehr an — das war früher anders und ist eine der stillen, aber praktisch wichtigen Änderungen.",
+    "Der Satzungssitz ist grundsätzlich frei wählbar. Ob die Wahl wirklich völlig frei ist, wird allerdings bestritten; viele Stiftungsbehörden verlangen einen sachlichen Anknüpfungspunkt.",
+    "Fehlt eine Bestimmung in der Satzung, liegt der Sitz am letzten inländischen Wohnsitz des Stifters. Wer nichts regelt, überlässt die Wahl also dem Zufall seiner Meldeadresse.",
+    "Das Verfahren beginnt lange vor dem Antrag: Erst steht die Entscheidung für die Stiftung und ein Konzept, dann der Kontakt zur Behörde, dann die Abstimmung der Dokumente.",
+    "Erst wenn die Behörde die Anerkennung in Aussicht stellt, folgen Stiftungsgeschäft und förmlicher Antrag. Wer diesen Vorlauf überspringt, verlängert das Verfahren meist erheblich.",
+    "Nach der Anerkennung ist die Stiftung rechtsfähig — dann erst wird das Vermögen übertragen und der Nachweis gegenüber der Behörde geführt.",
+    "Für gemeinnützige Stiftungen läuft parallel ein zweites Verfahren beim Finanzamt: die Abstimmung der Satzung und die Feststellung der satzungsmässigen Voraussetzungen. Beide Verfahren gehören koordiniert, nicht nacheinander.",
+  ],
+  ablauf: [
+    { schritt: "Konzept und Entscheidung", hinweis: "Zweck, Vermögen, Organe, Dauer — und die Frage, ob es wirklich eine Stiftung sein muss." },
+    { schritt: "Sitz wählen", hinweis: "Damit wählt man die Behörde. Ohne Bestimmung entscheidet der letzte Wohnsitz des Stifters.", norm: "§ 81 Abs. 4 S. 3 BGB" },
+    { schritt: "Kontakt zur Stiftungsbehörde", hinweis: "Konzept vorstellen, Dokumente übermitteln, Anmerkungen einarbeiten — vor dem förmlichen Antrag." },
+    { schritt: "Anerkennung in Aussicht", hinweis: "Erst danach Stiftungsgeschäft errichten und den Antrag stellen." },
+    { schritt: "Anerkennung und Vermögensübertragung", hinweis: "Übertragung, Nachweis gegenüber der Behörde, steuerliche Meldungen." },
+  ],
+  fehler: [
+    { fehler: "Der Sitz wird nicht geregelt, weil es „nur eine Formalie“ ist.", richtig: "Dann bestimmt ihn der letzte inländische Wohnsitz des Stifters — und damit die zuständige Behörde für die gesamte Lebensdauer der Stiftung.", norm: "§ 81 Abs. 4 S. 3 BGB" },
+    { fehler: "Der Antrag wird ohne Vorabstimmung eingereicht.", richtig: "Die Behörden erwarten den Vorlauf. Ein unabgestimmter Antrag führt regelmässig zu Nachforderungen und verlängert das Verfahren um Monate." },
+    { fehler: "Ein Sitz wird allein nach der vermuteten Behördenpraxis gewählt.", richtig: "Ohne sachlichen Anknüpfungspunkt wird die Wahl von vielen Behörden nicht akzeptiert — und das Verfahren beginnt von vorn." },
+  ],
+  merksatz: "Mit dem Satzungssitz wählt man nicht eine Adresse, sondern die Behörde, die die Stiftung ihr Leben lang begleitet.",
+  gewicht: { mandat: 3, reichweite: 2 },
+  antwortfreigabe: "abstrakt",
+  stand: "2026-09-18",
+  quellen: ["Q10 Abschn. C.3"],
+  verwandt: ["landesstiftungsrecht", "stiftungsaufsicht", "stiftung-errichtung-ablauf", "feststellung-60a"],
+};

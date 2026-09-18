@@ -45,7 +45,7 @@ FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im A
 - Formatableitung: Welche Beitragsformate ein Thema tragen kann, ergibt sich aus
   seinen Blöcken — nicht aus einer Pflegeliste, die veraltet
 - Berufsrechtliche Leitplanken, jeweils mit ihrer technischen Entsprechung
-- **109 Themen** aus neun Quellen (`wissen/rohmaterial/QUELLEN.md`): Einsatzfelder,
+- **121 Themen** aus zehn Quellen (`wissen/rohmaterial/QUELLEN.md`): Einsatzfelder,
   Vorteile und Nachteile, Alternativen, Ersatzformen, Lebenszyklus-Besteuerung,
   Vermögensschutz und seine Grenzen, Liechtenstein, Reform 2023 — und seit Q7 das
   Feld jenseits der Stiftung: Niessbrauch, Rückforderungsrechte, Personen- und
@@ -87,9 +87,9 @@ FREIGABE.md        die Veröffentlichungsschranke — die einzige Kontrolle im A
 **Als Nächstes**
 
 1. **Stil entscheiden** (Kontor oder Dossier) – Variable `IG_STIL`.
-2. **Gemeinnützigkeitsrecht**: drei Themen bei 12 % Soll. Das Kerngemeinnützigkeitsrecht
-   (§§ 52, 55, 60a, 62, 64–68 AO, § 10b EStG) kommt im vorliegenden Material nicht vor;
-   Material wird nachgeliefert – siehe `wissen/rohmaterial/QUELLEN.md`, Abschnitt Lücken.
+2. **Vertiefung** statt Lücken: Alle sieben Inhaltsblöcke halten im Planer ihren Zielanteil
+   (Simulation über acht Wochen). Offen sind Themen zweiter Ordnung – siehe
+   `wissen/rohmaterial/QUELLEN.md`, Abschnitt Lücken.
 3. **Reels** (Di/Do/Sa) mit dem Diagramm-Motion-Ansatz aus dem Strategiepapier.
 
 ## Warum nicht dasselbe Repo wie der Steuerberater-Bot

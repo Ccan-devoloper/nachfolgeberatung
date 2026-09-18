@@ -1,0 +1,35 @@
+/* Q10 Abschn. G.6 · Compliance und Haftungsrisiken */
+export default {
+  id: "gemeinnuetzigkeit-verlieren",
+  titel: "Wie eine Stiftung ihre Gemeinnützigkeit verliert",
+  bereich: "gemeinnuetzig",
+  kurz: "Der Entzug steht nicht im Ermessen des Finanzamts — liegt ein Verstoß vor, muss es entziehen. Korrektiv ist allein die Verhältnismäßigkeit: Bagatellen bleiben folgenlos, alles darüber nicht.",
+  normen: ["§ 63 AO", "§ 63 Abs. 1 AO", "§ 61 Abs. 3 AO", "§ 10b Abs. 4 EStG", "§ 55 AO"],
+  kern: [
+    "Die tatsächliche Geschäftsführung muss auf die ausschliessliche und unmittelbare Erfüllung der begünstigten Zwecke gerichtet sein — und den Bestimmungen der Satzung entsprechen.",
+    "Es genügt nicht, das Gemeinnützigkeitsrecht abstrakt einzuhalten. Was die Satzung nicht deckt, ist auch dann schädlich, wenn es für sich genommen gemeinnützig wäre.",
+    "Werden mehrere Zwecke in der Satzung genannt, muss jeder auch tatsächlich verfolgt werden. Eine Anlaufphase und äussere Umstände, die die Stiftung nicht zu vertreten hat, sind unschädlich.",
+    "Der Entzug der Gemeinnützigkeit steht nicht im Ermessen der Behörde. Deshalb ist der Verhältnismässigkeitsgrundsatz das entscheidende Korrektiv.",
+    "Einmalige, quantitativ oder qualitativ geringfügige Verstösse, die nicht andauern, führen nicht zur Aberkennung — das ist der Bagatellvorbehalt.",
+    "Punktuelle, aber gewichtige Verstösse und erst recht dauerhafte Verstösse führen dazu.",
+    "Die schärfste Folge trifft die Vermögensbindung: Wird gegen sie verstossen, entfällt die Begünstigung bis zu zehn Jahre rückwirkend.",
+    "Daneben steht die Spendenhaftung. Wer vorsätzlich oder grob fahrlässig eine unrichtige Zuwendungsbestätigung ausstellt oder eine zweckfremde Verwendung veranlasst, haftet für die entgangene Steuer — pauschal mit 30 Prozent des Spendenbetrags, bei der Gewerbesteuer zusätzlich.",
+    "In Anspruch genommen wird vorrangig die Körperschaft, nur nachrangig die handelnde Person. Ein Entlastungsbeweis ist möglich.",
+    "Keine Fehlverwendung liegt vor, wenn die Gemeinnützigkeit nachträglich aberkannt wurde, die Mittel aber tatsächlich für begünstigte Zwecke eingesetzt worden sind.",
+  ],
+  fehler: [
+    { fehler: "Die Stiftung nimmt eine neue Tätigkeit auf und ändert die Satzung „bei Gelegenheit“.", richtig: "Die Geschäftsführung darf erst nach Wirksamkeit der Satzungsänderung umgestellt werden — sonst ist die Tätigkeit nicht satzungsgedeckt.", norm: "§ 63 Abs. 1 AO" },
+    { fehler: "Ein Zweck steht seit Jahren in der Satzung, wird aber nie verfolgt.", richtig: "Jeder Satzungszweck muss tatsächlich verfolgt werden. Vorratszwecke sind ein vermeidbares Risiko." },
+    { fehler: "Zuwendungsbestätigungen werden weiter ausgestellt, obwohl der letzte Bescheid älter ist als die Frist.", richtig: "Dann ist die Bestätigung unrichtig — mit Haftung für 30 Prozent des Spendenbetrags.", norm: "§ 10b Abs. 4 EStG" },
+  ],
+  zahlen: [
+    { wert: "30 %", bedeutung: "Pauschale Haftung für die entgangene Steuer bei unrichtiger Zuwendungsbestätigung.", norm: "§ 10b Abs. 4 EStG" },
+    { wert: "10 Jahre", bedeutung: "Rückwirkung des Wegfalls bei Verstoß gegen die Vermögensbindung.", norm: "§ 61 Abs. 3 AO" },
+  ],
+  merksatz: "Die Gemeinnützigkeit geht nicht durch einen großen Fehler verloren, sondern durch viele kleine, die niemand korrigiert hat.",
+  gewicht: { mandat: 3, reichweite: 2 },
+  antwortfreigabe: "abstrakt",
+  stand: "2026-09-18",
+  quellen: ["Q10 Abschn. G.6"],
+  verwandt: ["gemeinnuetzige-satzung", "zeitnahe-mittelverwendung", "spendenabzug", "gemeinnuetzigkeit-grundprinzipien"],
+};

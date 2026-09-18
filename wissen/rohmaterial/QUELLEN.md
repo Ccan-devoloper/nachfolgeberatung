@@ -16,6 +16,7 @@ Wortlaut.
 | Q9 | Private Clients — Ergänzungsdossier 2026: Bewertung, Grunderwerbsteuer, Family Governance, Vermögensanlage der Stiftung (juris- und beck-online-validiert, 18 Seiten) | Rechtsstand 13.09.2026 | Wertfindung (vier Bewertungsanlässe, Methodenrangfolge § 11 Abs. 2 BewG, vereinfachtes Ertragswertverfahren mit Faktor 13,75 und Normalisierung, Substanzwert, Pflichtteil § 2311 BGB, Abfindungsklauseln); Immobilien-Share-Deals (90 % / zehn Jahre, Grundstückszurechnung § 1 Abs. 4a, Signing/Closing ab 03.07.2026, Konzernklausel § 6a, Anzeigepflichten); Family Governance (Familienverfassung und Übersetzungsbedarf, vier Ebenen, Familientag und Familienrat, Eigentümerkompetenz, vierstufige Konflikteskalation); Vermögensanlage der Stiftung (§§ 83c, 84a BGB, Anlagerichtlinie als Entscheidungskorridor, Konzentration bei unternehmensverbundenen Stiftungen, 30-Jahres-Liquiditätsleiter für die Erbersatzsteuer, Investment-Memo) |
 | Q8 | Private Clients — Ergänzungsdossier 2026 (beck-online und juris validiert, 29 Seiten) | Rechtsstand 13.09.2026 | Die vier Felder, die Q7 offen liess: Handlungsunfähigkeit des Unternehmers (Rollenmatrix, Vorsorge- und Unternehmervollmacht, Prokura, Betreuungsverfügung, Ein-Mann-GmbH, Personengesellschaft, Notfallplan), Unternehmensverkauf (Share/Asset Deal, Steuermatrix nach Halteebene, § 34 EStG, Holding und Sperrfrist, Käufertypen, Earn-out und Rollover, Verkauf aus der Stiftung, Behaltensfristen), Erbengemeinschaft und Berliner Testament (§ 18 GmbHG, Freibetragsmechanik, § 15 Abs. 3 ErbStG, Pflichtteilsstraf- und Jastrowsche Klausel, Bindungswirkung, Auseinandersetzung, Alternativen), Internationales Erbrecht (EuErbVO Art. 21/22/34, Grenzen der Verordnung, Gesellschaftsstatut, ENZ, Drittstaaten, §§ 2, 21, 30 ErbStG); dazu 20 Fälle und 72 Beitragsideen |
 | Q7 | Private Clients — Vermögens- und Unternehmensnachfolge 2026 (Research-Dossier, beck-online- und juris-validiert, 50 Seiten) | Rechtsstand 12.09.2026 | Für dieses Projekt erstelltes Dossier, 33 Kapitel: Instrumentenlandkarte, Familienstiftung (Motive, Satzung, Grundstock, Errichtung, laufende Besteuerung, Destinatäre, Erbersatzsteuer, Grossvermögen, Wegzug, § 15 AStG, Sonderformen) und — neu für den Bestand — Niessbrauch (Immobilie, GmbH, KG), Rückforderungsrechte und Steuerklauseln, Sonderbetriebsvermögen und Nachfolgeklauseln, GmbH-Anteile, Unternehmertestament, Pflichtteil-Fristanlauf, Ehevertrag, Immobilienstruktur, Minderjährige, 90-Prozent-Test, Vorwegabschlag, BVerfG 1 BvR 804/22; dazu 45 Fehler, 15 Fallstudien, 130 Beitragsideen, juris-Validierungsbericht |
+| Q10 | NWB-Akademie-Seminar „Stiftungen in der Beratungspraxis — Steuer- und stiftungsrechtliche Behandlung im Überblick" (242 Folien) | 27.08.2026 | Acht Abschnitte: Stiftung im Überblick; Stiftungszivilrecht und Satzungsgestaltung; **Landesstiftungsrecht** (Rechtsquellen aller sechzehn Länder, Abgrenzung Bund/Land nach der Reform, Anerkennungsverfahren, Stiftungsaufsicht); Publizität und Transparenz (Rechnungslegung, Stiftungsregister ab 1.1.2028, Transparenzregister); Vermögensanlage; Besteuerung von Familienstiftungen; **Besteuerung von gemeinnützigen Stiftungen** (Sphärenmodell, §§ 51–68 AO vollständig, Mustersatzung, § 60a AO, Mittelbeschaffung und -verwendung, Rücklagen, Spendenabzug, Sponsoring, Compliance und Spendenhaftung); Stiftungsersatz- und Sonderformen. Verlagsveröffentlichung mit Nutzungsbeschränkung — verwertet werden nur Sachaussagen, kein Wortlaut. |
 | Q6 | Steuerforum Trier — Die Familienstiftung als Nachfolgeinstrument (Vortrag, 21 Folien) | 05.06.2024 | **Fremdmaterial** (Kanzleivortrag Dritter). Lebenszyklus, Doppelstiftung mit Bewertungsfalle, Wegzugsplanung, ausländische Stiftung. Verwertet wurden nur Sachaussagen, kein Wortlaut und keine Gliederung. Stand Juni 2024 — mehrere dort offene Fragen sind durch Entscheidungen aus 2025/2026 überholt (siehe unten). |
 
 ## Zuordnung
@@ -62,23 +63,27 @@ Errichtung, Organe, Stifterrechte, Transparenz, liechtensteinische Besteuerung, 
 Hürden des Vermögenstransfers, Quellensteuer und Zuzugsfälle. Der Block trägt damit
 10 Themen und hält seinen Zielanteil von 20 %.
 
-**Gemeinnützigkeitsrecht — offen.** Der Bestand hat drei Themen, das Strategiepapier
-will 12 %. Das ist keine Extraktionslücke: Das Kerngemeinnützigkeitsrecht kommt im
-vorliegenden Material nicht vor. Geprüft über alle Dokumente — § 60a AO (Feststellung
-der Satzungsmäßigkeit): keine Fundstelle, § 62 AO (Rücklagen): keine, §§ 65–68 AO
-(Zweckbetrieb): keine, Selbstlosigkeit, Ausschließlichkeit, Unmittelbarkeit: je keine,
-Freistellungsbescheid: keine; § 55 AO einmal, § 52 AO viermal. Gemeinnützigkeit steht
-in Q1–Q9 nur als Abgrenzung zur privatnützigen Familienstiftung, als Bestandteil der
-Doppelstiftung und als Risikothema (Unternehmensspenden und verdeckte
-Gewinnausschüttung, BFH 13.07.2021 – I R 16/18 und 13.07.2022 – I R 52/20) — alles
-bereits als Thema vorhanden.
+**Gemeinnützigkeitsrecht — geschlossen (18.09.2026).** Bis zum 18.09.2026 trug der Bestand
+nur drei Themen dazu, und in dieser Datei stand, das Kerngemeinnützigkeitsrecht komme im
+Material nicht vor. Das war richtig für die damals vorliegenden Quellen Q1–Q9 und falsch
+als Aussage über den verfügbaren Bestand: Mit Q10 kam das gesamte Rechtsgebiet dazu —
+§ 52 (Zweckkatalog und Förderung der Allgemeinheit), § 53, § 54, §§ 55–57 (Selbstlosigkeit,
+Ausschließlichkeit, Unmittelbarkeit), § 58 (unschädliche Betätigungen, Stifterdrittel,
+Mittelweitergabe), §§ 59–61 mit Mustersatzung und Vermögensbindung, § 60a (Feststellung),
+§ 62 (Rücklagen), § 63 (tatsächliche Geschäftsführung, Bagatellvorbehalt), §§ 64–68
+(wirtschaftlicher Geschäftsbetrieb und Zweckbetrieb), § 10b EStG mit § 50 EStDV, § 60b AO
+(Zuwendungsempfängerregister), Spendenhaftung. Daraus sind acht Themen entstanden; der
+Block trägt nun zwölf und hält seinen Zielanteil von 12 %.
 
-Der Kanzleiinhaber liefert dazu Material nach. Gebraucht werden Skelette für: Zweckkatalog
-und Anerkennung (§§ 52, 60a AO), Selbstlosigkeit und zeitnahe Mittelverwendung (§ 55 AO),
-Rücklagen (§ 62 AO), Zweckbetrieb und wirtschaftlicher Geschäftsbetrieb (§§ 64–68 AO),
-Spendenabzug und Zuwendungsbestätigung (§ 10b EStG), gemeinnützige GmbH. Bis dahin
-rotieren die drei vorhandenen Themen etwa alle zwei bis drei Wochen mit wechselndem
-Blickwinkel — tragfähig, aber dünn.
+**Aus Q10 zusätzlich geschlossen: Landesstiftungsrecht.** Der Bestand hatte dazu kein
+eigenes Thema. Neu sind die Abgrenzung von Bundes- und Landesrecht nach der Reform 2023,
+Satzungssitz und Anerkennungsverfahren (§ 81 Abs. 4 S. 3 BGB) sowie die Befugnisse der
+Stiftungsaufsicht (§§ 84a, 84c, 85a, 86b, 87 Abs. 3 BGB) samt Rechnungslegung.
+
+**Aus Q10 korrigiert:** Die Beispielinhalte des Bots nannten das Stiftungsregister als
+„seit 2026 Pflicht". Richtig ist der 1.1.2028; bestehende Stiftungen haben danach ein Jahr
+Zeit. Das Themenskelett war korrekt, die Beispieldatei nicht — und die Beispiele stehen im
+Auftrag an den Autor als Muster.
 
 Was sonst noch fehltWas sonst noch fehlt, ist keine Lücke im Beratungsfeld, sondern Vertiefung: Pflichtteilsverzicht
 und Abfindungsverhandlung als eigene Themen, Betriebsaufspaltung, Bewertung von

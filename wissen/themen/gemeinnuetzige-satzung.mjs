@@ -1,0 +1,40 @@
+/* Q10 Abschn. G.3a, G.3b · Formelle Satzungsmäßigkeit und Gestaltungshinweise */
+export default {
+  id: "gemeinnuetzige-satzung",
+  titel: "Die Satzung entscheidet — und ein Fehler wirkt zehn Jahre zurück",
+  bereich: "gemeinnuetzig",
+  kurz: "Die Gemeinnützigkeit muss sich aus der Satzung selbst ergeben. Das Gesetz gibt dafür eine Mustersatzung vor, und beim Punkt Vermögensbindung ist ein späterer Fehler besonders teuer: Die Begünstigung entfällt bis zu zehn Jahre rückwirkend.",
+  normen: ["§ 59 AO", "§ 60 AO", "§ 61 AO", "§ 55 Abs. 1 Nr. 4 AO", "Anlage 1 zu § 60 AO"],
+  kern: [
+    "Das Gesetz unterscheidet formelle und materielle Gemeinnützigkeit: Aus der Satzung muss sich ergeben, dass ausschliesslich und unmittelbar begünstigte Zwecke verfolgt werden — und die tatsächliche Geschäftsführung muss das dann auch tun.",
+    "Die Satzung ist Buchnachweis. Verbleibende Unklarheiten gehen zulasten dessen, der sich auf die Steuerbegünstigung beruft.",
+    "Seit 2008 ist die Mustersatzung verbindlich. Ob ihr Wortlaut wörtlich übernommen werden muss, ist ungeklärt — in der Praxis sollte man es tun, weil das die Prüfung beschleunigt. Aufbau und Reihenfolge sind unerheblich.",
+    "Vier Punkte müssen zwingend in die Satzung: die Zwecke und die Art ihrer Verwirklichung, der Hinweis auf Selbstlosigkeit, der auf Ausschliesslichkeit und der auf Unmittelbarkeit.",
+    "Der fünfte und gefährlichste ist die Vermögensbindung: Bei Auflösung oder Wegfall des Zwecks muss das Vermögen in der gemeinnützigen Sphäre bleiben. Dafür genügt es nicht, allgemein auf steuerbegünstigte Zwecke zu verweisen — es braucht eine konkrete Empfängerkörperschaft oder zumindest einen bestimmten Verwendungszweck.",
+    "Wird diese Bestimmung später so geändert, dass sie den Anforderungen nicht mehr genügt, entfällt die Gemeinnützigkeit bis zu zehn Jahre rückwirkend. Das ist die schärfste Sanktion des ganzen Rechtsgebiets.",
+    "Für die Zweckbestimmung gilt: möglichst präzise, aber mit dem Wort „insbesondere“ offen gehalten. Örtliche oder zeitliche Begrenzungen sind grundsätzlich unzulässig.",
+    "Vorratszwecke, die nie verfolgt werden, gehören nicht hinein — jeder Satzungszweck muss auch tatsächlich verfolgt werden, wenn auch nicht gleichmässig.",
+    "Wirtschaftlicher Geschäftsbetrieb und Vermögensverwaltung sind keine Satzungszwecke. Die Erlaubnis dazu darf aber aufgenommen werden.",
+  ],
+  ablauf: [
+    { schritt: "Zwecke auswählen", hinweis: "Nach den beabsichtigten Tätigkeiten, mit den Bezeichnungen des gesetzlichen Zweckkatalogs, im Grenzbereich lieber mehrere.", norm: "§ 52 Abs. 2 AO" },
+    { schritt: "Mustersatzung übernehmen", hinweis: "Wortlaut möglichst unverändert; Reihenfolge frei.", norm: "§ 61 Abs. 1 S. 2 AO" },
+    { schritt: "Vermögensbindung konkret fassen", hinweis: "Empfängerkörperschaft benennen oder einen bestimmten Verwendungszweck — keine Leerformel." },
+    { schritt: "Satzung vor der Gründung mit dem Finanzamt abstimmen", hinweis: "Das erspart den Streit hinterher und sichert die Feststellung im selben Veranlagungszeitraum." },
+    { schritt: "Vergütungen regeln", hinweis: "Sollen Organmitglieder Vergütung oder Auslagenersatz erhalten, muss das in der Satzung stehen." },
+  ],
+  fehler: [
+    { fehler: "Die Satzung sagt, das Vermögen sei bei Auflösung „für steuerbegünstigte Zwecke zu verwenden“.", richtig: "Das genügt nicht. Es braucht eine konkrete Empfängerkörperschaft oder einen bestimmten Zweck. Auch die Abstimmung mit dem Finanzamt im Auflösungsfall reicht nicht.", norm: "§ 61 AO" },
+    { fehler: "Eine spätere Satzungsänderung fasst die Vermögensbindung neu, ohne sie zu prüfen.", richtig: "Genügt die neue Fassung nicht mehr, entfällt die Gemeinnützigkeit für bis zu zehn Jahre rückwirkend — mit allen Steuernachforderungen." },
+    { fehler: "Die Geschäftsführung stellt auf einen neuen Zweck um und die Satzung wird danach angepasst.", richtig: "Die Reihenfolge ist umgekehrt: Erst muss die Satzungsänderung wirksam sein, dann darf die Tätigkeit folgen.", norm: "§ 63 Abs. 1 AO" },
+  ],
+  zahlen: [
+    { wert: "10 Jahre", bedeutung: "So weit wirkt der Wegfall der Gemeinnützigkeit zurück, wenn die Vermögensbindung verletzt wird.", norm: "§ 61 Abs. 3 AO" },
+  ],
+  merksatz: "In der gemeinnützigen Stiftung ist die Satzung kein Formular, sondern die Steuerbefreiung selbst — jeder unscharfe Satz darin kostet später Geld.",
+  gewicht: { mandat: 3, reichweite: 2 },
+  antwortfreigabe: "abstrakt",
+  stand: "2026-09-18",
+  quellen: ["Q10 Abschn. G.3a, G.3b"],
+  verwandt: ["feststellung-60a", "gemeinnuetzige-zwecke", "gemeinnuetzigkeit-verlieren", "satzung-zukunftsklauseln"],
+};

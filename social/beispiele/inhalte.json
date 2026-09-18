@@ -26,9 +26,18 @@
           "art": "struktur",
           "titel": "Was bei der Gründung passiert",
           "knoten": [
-            { "label": "Stifter", "unter": "überträgt Vermögen" },
-            { "label": "Familienstiftung", "unter": "wird Eigentümerin" },
-            { "label": "Finanzamt", "unter": "besteuert den Übergang" }
+            {
+              "label": "Stifter",
+              "unter": "überträgt Vermögen"
+            },
+            {
+              "label": "Familienstiftung",
+              "unter": "wird Eigentümerin"
+            },
+            {
+              "label": "Finanzamt",
+              "unter": "besteuert den Übergang"
+            }
           ],
           "text": "Die Steuerklasse richtet sich nach dem entferntesten Begünstigten laut Satzung – § 15 Abs. 2 S. 1 ErbStG."
         },
@@ -36,9 +45,18 @@
           "art": "zeitachse",
           "titel": "Die Erbersatzsteuer alle 30 Jahre",
           "schritte": [
-            { "zeit": "Jahr 0", "text": "Gründung: Schenkungsteuer auf das übertragene Vermögen" },
-            { "zeit": "Jahr 30", "text": "Erbersatzsteuer – als gingen zwei Kinder als Erben hervor" },
-            { "zeit": "Jahr 60", "text": "erneut, ohne dass jemand gestorben ist" }
+            {
+              "zeit": "Jahr 0",
+              "text": "Gründung: Schenkungsteuer auf das übertragene Vermögen"
+            },
+            {
+              "zeit": "Jahr 30",
+              "text": "Erbersatzsteuer – als gingen zwei Kinder als Erben hervor"
+            },
+            {
+              "zeit": "Jahr 60",
+              "text": "erneut, ohne dass jemand gestorben ist"
+            }
           ],
           "text": "Rechtsgrundlage: § 1 Abs. 1 Nr. 4 ErbStG."
         },
@@ -69,14 +87,30 @@
         }
       ],
       "caption": "Spart eine Familienstiftung Erbschaftsteuer? Die ehrliche Antwort lautet: nicht automatisch – und manchmal gar nicht.\n\nDie Übertragung von Vermögen auf eine Familienstiftung ist ein schenkungsteuerpflichtiger Vorgang. Die Steuerklasse bestimmt sich nach dem entferntesten Begünstigten, den die Satzung zulässt (§ 15 Abs. 2 S. 1 ErbStG). Sind auch Enkel oder Urenkel bedacht, bleibt es bei Steuerklasse I; werden Schwiegerkinder begünstigt, wird es teurer. Und alle 30 Jahre erhebt der Fiskus die Erbersatzsteuer (§ 1 Abs. 1 Nr. 4 ErbStG), berechnet so, als würde das Vermögen auf zwei Kinder übergehen – mit dem doppelten Freibetrag von 800.000 €.\n\nDas heißt nicht, dass die Familienstiftung steuerlich unattraktiv ist. Betriebsvermögen kann auch hier nach §§ 13a, 13b ErbStG verschont werden, und die Erbersatzsteuer lässt sich planen. Aber der Grund für eine Stiftung sollte die Kontinuität des Vermögens sein, nicht die Steuer.\n\nAllgemeine Information, keine Rechtsberatung im Einzelfall. Rechtsstand: September 2026.\n\nWelche Frage zur Familienstiftung beschäftigt Sie? Schreiben Sie sie in die Kommentare.",
-      "hashtags": ["#familienstiftung", "#stiftungsrecht", "#unternehmensnachfolge", "#vermögensnachfolge", "#nachfolgeplanung", "#erbschaftsteuer", "#erbersatzsteuer", "#familienunternehmen", "#vermögensschutz", "#stiftung"],
+      "hashtags": [
+        "#familienstiftung",
+        "#stiftungsrecht",
+        "#unternehmensnachfolge",
+        "#vermögensnachfolge",
+        "#nachfolgeplanung",
+        "#erbschaftsteuer",
+        "#erbersatzsteuer",
+        "#familienunternehmen",
+        "#vermögensschutz",
+        "#stiftung"
+      ],
       "kurztitel": "Familienstiftung und Erbschaftsteuer",
       "storyHinweis": "Warum die Erbersatzsteuer alle 30 Jahre die Rechnung verändert – und wann eine Familienstiftung trotzdem passt.",
       "sicherheit": {
         "rechtsstand": "September 2026",
         "jurisdiktion": "DE",
         "primaerquelle": "ErbStG",
-        "normen": ["§ 1 Abs. 1 Nr. 4 ErbStG", "§ 15 Abs. 2 ErbStG", "§ 16 Abs. 1 Nr. 2 ErbStG", "§§ 13a, 13b ErbStG"],
+        "normen": [
+          "§ 1 Abs. 1 Nr. 4 ErbStG",
+          "§ 15 Abs. 2 ErbStG",
+          "§ 16 Abs. 1 Nr. 2 ErbStG",
+          "§§ 13a, 13b ErbStG"
+        ],
         "unsicherheit": "niedrig"
       }
     },
@@ -105,8 +139,22 @@
         {
           "art": "vergleich",
           "titel": "Die beiden Formen im Vergleich",
-          "links": { "titel": "Deutsche Familienstiftung", "punkte": ["Anerkennung durch die Stiftungsbehörde", "Satzung nach Gründung nur begrenzt änderbar", "Erbersatzsteuer alle 30 Jahre"] },
-          "rechts": { "titel": "Liechtensteinische Stiftung", "punkte": ["Entsteht mit Eintragung oder Hinterlegung", "Änderungsvorbehalte des Stifters möglich", "Zurechnung nach § 15 AStG zu prüfen"] }
+          "links": {
+            "titel": "Deutsche Familienstiftung",
+            "punkte": [
+              "Anerkennung durch die Stiftungsbehörde",
+              "Satzung nach Gründung nur begrenzt änderbar",
+              "Erbersatzsteuer alle 30 Jahre"
+            ]
+          },
+          "rechts": {
+            "titel": "Liechtensteinische Stiftung",
+            "punkte": [
+              "Entsteht mit Eintragung oder Hinterlegung",
+              "Änderungsvorbehalte des Stifters möglich",
+              "Zurechnung nach § 15 AStG zu prüfen"
+            ]
+          }
         },
         {
           "art": "zahl",
@@ -118,8 +166,16 @@
         {
           "art": "einordnung",
           "titel": "Wann Liechtenstein tatsächlich passt",
-          "relevant": ["Familie mit Bezügen zu mehreren Staaten", "Vermögen, das langfristig international bleibt", "Bedarf an einer anpassbaren Satzung"],
-          "problematisch": ["Stifter will weiter allein bestimmen", "Motiv ist nur die Steuer", "Keine Bereitschaft zu laufender Compliance"]
+          "relevant": [
+            "Familie mit Bezügen zu mehreren Staaten",
+            "Vermögen, das langfristig international bleibt",
+            "Bedarf an einer anpassbaren Satzung"
+          ],
+          "problematisch": [
+            "Stifter will weiter allein bestimmen",
+            "Motiv ist nur die Steuer",
+            "Keine Bereitschaft zu laufender Compliance"
+          ]
         },
         {
           "art": "takeaway",
@@ -129,14 +185,30 @@
         }
       ],
       "caption": "Deutsche oder liechtensteinische Familienstiftung – die Frage kommt in fast jedem Gespräch über internationale Vermögensstrukturen. Sie hat eine klare Antwort: Es kommt darauf an, was die Familie mit der Stiftung will.\n\nDie deutsche Familienstiftung nach §§ 80 ff. BGB ist ein stabiler Rahmen mit staatlicher Anerkennung, aber wenig Beweglichkeit nach der Gründung. Die liechtensteinische Stiftung nach Art. 552 §§ 1 ff. PGR erlaubt dem Stifter Änderungs- und Widerrufsvorbehalte. Genau diese Vorbehalte sind aus deutscher Sicht das Risiko: Nach § 15 AStG wird das Einkommen einer ausländischen Familienstiftung den in Deutschland unbeschränkt steuerpflichtigen Begünstigten zugerechnet, es sei denn, die Stiftung verfügt tatsächlich und rechtlich selbstständig über ihr Vermögen (§ 15 Abs. 6 AStG). Auch die Erbschaftsteuer richtet sich bei Wohnsitz in Deutschland nach deutschem Recht.\n\nDie Wahl ist also keine Steuerfrage, sondern eine Strukturfrage: Wer international aufgestellt ist und eine flexible Satzung braucht, findet in Liechtenstein einen tragfähigen Rahmen – wenn er bereit ist, Kontrolle abzugeben.\n\nAllgemeine Information, keine Rechtsberatung im Einzelfall. Rechtsstand: September 2026.\n\nKennen Sie jemanden, der gerade beide Optionen vergleicht? Dann ist dieser Beitrag für ihn gedacht.",
-      "hashtags": ["#familienstiftung", "#stiftungsrecht", "#unternehmensnachfolge", "#vermögensnachfolge", "#nachfolgeplanung", "#liechtenstein", "#stiftung", "#vermögensschutz", "#steuerrecht", "#familienvermögen"],
+      "hashtags": [
+        "#familienstiftung",
+        "#stiftungsrecht",
+        "#unternehmensnachfolge",
+        "#vermögensnachfolge",
+        "#nachfolgeplanung",
+        "#liechtenstein",
+        "#stiftung",
+        "#vermögensschutz",
+        "#steuerrecht",
+        "#familienvermögen"
+      ],
       "kurztitel": "Deutschland oder Liechtenstein",
       "storyHinweis": "Deutsche oder liechtensteinische Stiftung – warum die Antwort nichts mit der Steuer zu tun hat.",
       "sicherheit": {
         "rechtsstand": "September 2026",
         "jurisdiktion": "DE/LI",
         "primaerquelle": "AStG · PGR",
-        "normen": ["§ 15 AStG", "§ 15 Abs. 6 AStG", "§§ 80 ff. BGB", "Art. 552 § 1 PGR"],
+        "normen": [
+          "§ 15 AStG",
+          "§ 15 Abs. 6 AStG",
+          "§§ 80 ff. BGB",
+          "Art. 552 § 1 PGR"
+        ],
         "unsicherheit": "mittel"
       }
     }
@@ -161,9 +233,18 @@
       "schaubild": {
         "art": "struktur",
         "knoten": [
-          { "label": "Vorstand", "unter": "führt und vertritt" },
-          { "label": "Beirat", "unter": "kontrolliert" },
-          { "label": "Familienrat", "unter": "berät und benennt" }
+          {
+            "label": "Vorstand",
+            "unter": "führt und vertritt"
+          },
+          {
+            "label": "Beirat",
+            "unter": "kontrolliert"
+          },
+          {
+            "label": "Familienrat",
+            "unter": "berät und benennt"
+          }
         ]
       }
     },
@@ -181,9 +262,9 @@
       "art": "aktuell",
       "kategorie": "Aktuelles · Rechtsprechung",
       "ueberzeile": "Aktuell",
-      "titel": "Stiftungsregister: Eintragung ist seit 2026 Pflicht",
-      "text": "Rechtsfähige Stiftungen werden in ein zentrales Register eingetragen. Bestehende Stiftungen müssen die Anmeldung nachholen – die Frist läuft.",
-      "norm": "§ 82b BGB · StiftRG"
+      "titel": "Stiftungsregister: ab 2028 muss jede Stiftung hinein",
+      "text": "Das bundesweite Register startet am 1. Januar 2028. Bestehende Stiftungen haben danach ein Jahr Zeit, sich anzumelden — die Pflicht ist bußgeldbewehrt.",
+      "norm": "§§ 82b–82d BGB · StiftRG"
     }
   ]
 }

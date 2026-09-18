@@ -1,0 +1,36 @@
+/* Q10 Abschn. C.4, D.1 · Stiftungsaufsicht und Rechnungslegung */
+export default {
+  id: "stiftungsaufsicht",
+  titel: "Was die Stiftungsaufsicht darf — und was sie jedes Jahr sehen will",
+  bereich: "stiftungsrecht",
+  kurz: "Die Aufsicht ist Rechtsaufsicht, keine Zweckmäßigkeitskontrolle. Sie kann aber Beschlüsse beanstanden, Organmitglieder abberufen, Ersatzleute bestellen und Satzungsänderungen genehmigen — oder selbst vornehmen.",
+  normen: ["§ 84 BGB", "§ 84a BGB", "§ 84c BGB", "§ 85a BGB", "§ 86b BGB", "§ 87 Abs. 3 BGB"],
+  kern: [
+    "Die Stiftungsaufsicht prüft, ob die Stiftung sich an Gesetz und Satzung hält. Ob eine Entscheidung klug ist, geht sie nichts an — dafür ist der Vorstand da.",
+    "Ihr erstes Instrument ist Information: Sie verlangt eine Jahresrechnung mit Vermögensübersicht und einen Tätigkeitsbericht über die Erfüllung des Stiftungszwecks. Änderungen in der Besetzung der Organe sind mitzuteilen.",
+    "Die Fristen dafür stehen im Landesrecht und schwanken zwischen sechs und zwölf Monaten; teilweise entfällt die Vorlagepflicht, wenn ein Wirtschaftsprüfer eingeschaltet ist.",
+    "Ihr zweites Instrument ist die Beanstandung: Rechtswidrige Beschlüsse kann sie beanstanden, unterlassene Massnahmen anordnen — und nach Fristablauf mit Zwangsmitteln durchsetzen.",
+    "Ihr schärfstes Instrument richtet sich gegen Personen: Bei groben Pflichtverletzungen kann sie Organmitglieder suspendieren oder abberufen. Fehlt einem Organ dadurch die Handlungsfähigkeit, kann sie befristet Ersatzmitglieder bestellen.",
+    "Genehmigungsvorbehalte gibt es für die wichtigsten Weichenstellungen: jede Satzungsänderung, Zulegung und Zusammenlegung sowie die Auflösung durch die Stiftungsorgane.",
+    "Bemerkenswert und wenig bekannt: Die Behörde kann die Satzung sogar selbst ändern, wenn die Änderung notwendig ist und das zuständige Organ sie nicht rechtzeitig beschliesst.",
+    "Die Rechnungslegungspflicht ergibt sich aus dem Verweis des BGB auf das Auftragsrecht — Rechenschaftspflicht, geordnete Zusammenstellung von Einnahmen und Ausgaben, Vermögensverzeichnis.",
+    "Die Pflicht zur kaufmännischen Buchführung trifft die Stiftung nur, wenn sie Kaufmann ist, also etwa ein Handelsgewerbe betreibt. Kraft Rechtsform ist sie es nicht.",
+  ],
+  ablauf: [
+    { schritt: "Jahresrechnung und Tätigkeitsbericht", hinweis: "Fristen nach Landesrecht, meist sechs bis zwölf Monate nach Geschäftsjahresende." },
+    { schritt: "Mitteilung von Organänderungen", hinweis: "Insbesondere Bestellungen zum Vorstand." },
+    { schritt: "Genehmigung einholen", hinweis: "Vor Satzungsänderung, Zulegung, Zusammenlegung und Auflösung.", norm: "§ 85a Abs. 1 S. 2 BGB" },
+    { schritt: "Bei Konflikt: Beanstandung abwarten oder abwenden", hinweis: "Nach Fristablauf folgt die Ersatzvornahme mit Zwangsmitteln." },
+  ],
+  fehler: [
+    { fehler: "Die Satzung wird geändert und die Genehmigung nachträglich beantragt.", richtig: "Die Genehmigung ist Wirksamkeitsvoraussetzung. Bis dahin gilt die alte Satzung — und Handlungen nach der neuen sind nicht gedeckt.", norm: "§ 85a BGB" },
+    { fehler: "Jahresrechnung und Tätigkeitsbericht werden als Formsache behandelt.", richtig: "Sie sind das einzige regelmässige Bild, das sich die Aufsicht von der Stiftung macht. Wer hier nachlässig ist, zieht Nachfragen an." },
+    { fehler: "Ein Konflikt im Vorstand wird ausgesessen.", richtig: "Ist ein Organ handlungsunfähig, kann die Behörde selbst Mitglieder bestellen — dann entscheidet über die Familienstiftung jemand, den die Familie nicht ausgesucht hat.", norm: "§ 84c BGB" },
+  ],
+  merksatz: "Die Stiftungsaufsicht fragt nie, ob eine Entscheidung gut war — nur, ob sie erlaubt war.",
+  gewicht: { mandat: 2, reichweite: 2 },
+  antwortfreigabe: "abstrakt",
+  stand: "2026-09-18",
+  quellen: ["Q10 Abschn. C.4, D.1"],
+  verwandt: ["landesstiftungsrecht", "anerkennung-satzungssitz", "stiftung-governance", "satzungsaenderung-reform"],
+};
