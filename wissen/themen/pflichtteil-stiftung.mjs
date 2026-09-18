@@ -4,12 +4,13 @@ export default {
   titel: "Pflichtteil und Stiftung — die Zehnjahresuhr mit Abschmelzung",
   bereich: "erbrecht",
   kurz: "Gegen Pflichtteilsansprüche schirmt keine Stiftung ab; die Dotation gilt als Schenkung und wird zehn Jahre lang mit abnehmendem Gewicht dem Nachlass hinzugerechnet.",
-  normen: ["§ 2303 BGB", "§ 2325 Abs. 3 BGB", "§ 2305 BGB", "§§ 2346 ff. BGB"],
+  normen: ["§ 2303 BGB", "§ 2325 Abs. 3 BGB", "§ 2327 BGB", "§ 2305 BGB", "§§ 2346 ff. BGB"],
   kern: [
     "Der Pflichtteil beträgt die Hälfte des gesetzlichen Erbteils und steht Abkömmlingen, Ehegatten und — nachrangig — Eltern zu; Testament und Stiftung ändern daran nichts.",
     "Die Ausstattung der Stiftung zu Lebzeiten ist eine Schenkung im Sinne der Pflichtteilsergänzung: Der Berechtigte kann verlangen, dass sie dem Nachlass rechnerisch hinzugezählt wird.",
     "Die Hinzurechnung schmilzt ab: im ersten Jahr nach der Leistung voll, dann jedes Jahr um ein Zehntel weniger, nach zehn Jahren gar nicht mehr.",
     "Bei einer Stiftung von Todes wegen gibt es diese Abschmelzung nicht — das gesamte Vermögen fällt in den Nachlass, und der Pflichtteil trifft die Stiftung ungebremst.",
+    "Ein Trugschluss zum Schluss: Wird der Pflichtteilsberechtigte selbst Begünstigter und erhält Ausschüttungen, muss er sich diese nicht auf seinen Pflichtteil anrechnen lassen — die Stiftung leistet aus eigenem Recht, nicht als Bote des Erblassers.",
     "Der sichere Weg ist der notarielle Pflichtteils- oder Erbverzicht der Berechtigten — meist gegen eine Abfindung oder gegen die Aufnahme in den Begünstigtenkreis.",
   ],
   einsatzfelder: [

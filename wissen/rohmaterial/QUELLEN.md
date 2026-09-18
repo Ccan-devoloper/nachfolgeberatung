@@ -85,7 +85,38 @@ Stiftungsaufsicht (§§ 84a, 84c, 85a, 86b, 87 Abs. 3 BGB) samt Rechnungslegung.
 Zeit. Das Themenskelett war korrekt, die Beispieldatei nicht — und die Beispiele stehen im
 Auftrag an den Autor als Muster.
 
-Was sonst noch fehltWas sonst noch fehlt, ist keine Lücke im Beratungsfeld, sondern Vertiefung: Pflichtteilsverzicht
+## Vollständige Auswertung, September 2026
+
+Auf ausdrückliche Weisung wurde jede Quelle zweimal durchgegangen.
+
+**Erster Durchgang, über die Normen.** Alle Paragrafen aus dem Material wurden extrahiert
+und gegen alle Themenskelette abgeglichen. Ergebnis zu Beginn: 208 unterscheidbare Normen
+im Material, 133 davon im Bestand belegt. Die Fehlstellen bildeten zehn Gruppen —
+Gläubigerschutz und Anfechtung, Organhaftung, Form und Vollzug der Errichtung, Auflösung
+und ihre Besteuerung, Melde- und Anzeigepflichten, Stichtag und Tarif bei der
+Erbschaftsteuer, Zurechnungsbesteuerung, Umwandlung und Thesaurierung, Gemeinnützigkeit,
+Ehegatten- und Erbrecht.
+
+**Zweiter Durchgang, über die Gliederung.** Weil eine Norm nur ein grober Zeiger auf einen
+Inhalt ist, wurde jede Quelle zusätzlich abschnittsweise geprüft: bei den Aufsätzen über
+die Überschriften, beim Seminarmaterial über die Abschnitte A bis H, beim Strategiepapier
+über seine 130 durchnummerierten Themenvorschläge. Der Abgleich der Ideenliste gegen den
+Bestand liess acht Vorschläge offen; sie sind jetzt Themen.
+
+**Ergebnis.** Der Bestand ist von 113 auf 156 Themen gewachsen. Die Normabdeckung liegt
+bei 161 von 208. Was offen bleibt, sind Literaturfundstellen, einzelne
+Landesstiftungsgesetze, die im Thema `landesstiftungsrecht` zusammengefasst sind, und
+Vorschriften, die im Material nur als Randzitat auftauchen.
+
+**Dabei berichtigt:** Das liechtensteinische PGR stammt vom 20. Januar 1926, nicht von
+1924 — Q5 nennt die falsche Jahreszahl, Q10 die richtige, und die Nachprüfung bestätigt
+1926. Zu EuGH C-142/24 hielt der Bestand fest, der Gerichtshof habe die
+Zurechnungsbesteuerung gebilligt; tatsächlich muss das Finanzgericht die
+Verhältnismässigkeit im engeren Sinne noch prüfen. Die Freigrenze für wirtschaftliche
+Geschäftsbetriebe beträgt seit dem 1.1.2026 50.000 Euro, nicht mehr 45.000 — das
+Seminarmaterial war richtig.
+
+Was jetzt noch fehlt, ist keine Lücke im Beratungsfeld, sondern Vertiefung: Pflichtteilsverzicht
 und Abfindungsverhandlung als eigene Themen, Betriebsaufspaltung, Bewertung von
 Immobilien für die Erbschaftsteuer, Beirat und Aufsichtsrat im Familienunternehmen,
 Vermögensverwaltende GmbH als Ersatzform. Jedes davon trägt ein bis zwei Themen und
