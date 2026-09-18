@@ -45,6 +45,17 @@ test("Prüfung sperrt Personennamen in Beispielen", () => {
   assert.equal(gefundeneNamen("Ein Unternehmer, 62, überträgt Anteile auf seine Tochter.").length, 0);
 });
 
+test("Sperrliste greift, ohne gewöhnliche Wörter zu treffen", () => {
+  const liste = korpus().namen;
+  assert.ok(liste.length >= 8, `Sperrliste hat nur ${liste.length} Einträge`);
+  /* Autoren und Kanzleien des Rohmaterials dürfen nie in einem Beitrag stehen. */
+  assert.ok(gefundeneNamen("Nach Oppel ist das anders zu sehen.").includes("Oppel"));
+  /* Und die Liste darf keine juristische Alltagssprache blockieren. */
+  for (const satz of ["Das Gesetz tritt in Kraft.", "Der weiten Auslegung folgt der BFH nicht.", "Die Stiftung wird kraft Gesetzes rechtsfähig."]) {
+    assert.deepEqual(gefundeneNamen(satz), [], satz);
+  }
+});
+
 test("Beispielbeiträge und -Stories bestehen die Prüfung", () => {
   for (const b of beispiele.beitraege) { const r = pruefeBeitrag(b); assert.ok(r.ok, `${b.slug}: ${r.fehler.join(" | ")}`); }
   const r = pruefeBeitrag({ stories: beispiele.stories });

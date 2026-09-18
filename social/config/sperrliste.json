@@ -1,4 +1,17 @@
 {
-  "_hinweis": "Namen, die in keinem Beitrag vorkommen dürfen – Mandanten, Kollegen, Kanzleien, Autoren. Der Bot prüft jeden Text dagegen (pruefung.mjs). Beispiele sind ohnehin anonym.",
-  "namen": []
+  "_hinweis": "Namen, die in keinem Beitrag vorkommen dürfen. Der Bot prüft jeden Folien-, Story- und Caption-Text dagegen (pruefung.mjs, gefundeneNamen) und lehnt den Entwurf ab, wenn einer auftaucht. Aufgenommen sind die Autoren und Referenten des Rohmaterials sowie die dort genannten Kanzleien und Verlage — in die Themenskelette ist keiner von ihnen gelangt, die Liste ist das Sicherheitsnetz gegen einen Modellfehler. Beispiele in Beiträgen sind ohnehin anonym. Nachnamen, die zugleich gewöhnliche Wörter sind (Kraft, Weiten), stehen mit Vornamen, damit kein Beitrag an „tritt in Kraft“ oder „der weiten Auslegung“ scheitert.",
+  "namen": [
+    "Oppel",
+    "Karaman",
+    "Loewenthal",
+    "Escher",
+    "Philipp Weiten",
+    "YPOG",
+    "Flick Gocke",
+    "Wassermeyer",
+    "Schönfeld",
+    "Baßler",
+    "Gosch",
+    "Hübner"
+  ]
 }

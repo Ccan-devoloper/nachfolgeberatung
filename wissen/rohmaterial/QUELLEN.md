@@ -55,20 +55,32 @@ Mit Q9 sind alle Felder der Themenlandkarte abgedeckt. Der Weg dahin:
 | Q8 | Handlungsunfähigkeit, Unternehmensverkauf, Erbengemeinschaft und Berliner Testament, internationales Erbrecht |
 | Q9 | Bewertung, Grunderwerbsteuer, Family Governance, Vermögensanlage der Stiftung |
 
-**Offen für den Kanalmix (Strategiepapier: Liechtenstein 20 %, Gemeinnützigkeit 12 %):**
-Der Bestand trägt nur 2 Themen im Bereich `liechtenstein` und 3 im Bereich
-`gemeinnuetzig`. Mit der 12-Tage-Sperre je Thema und der 240-Tage-Sperre je Thema und
-Blickwinkel kann der Planer diese Anteile daraus nicht halten und weicht auf andere
-Blöcke aus. Nötig sind rund 10 weitere Liechtenstein-Themen (Errichtung nach Art. 552
-PGR, Stiftungsrat und Protektor, Begünstigtenrechte, Ermessens- und Zweckstiftung,
-Widerrufs- und Änderungsvorbehalte, § 15 Abs. 6 AStG-Governance, Erbschaftsteuer beim
-Zuwendenden, DBA, Wegzug nach Liechtenstein, Vergleich Treuhänderschaft/Trust) und rund
-6 Themen zur gemeinnützigen Stiftung (Zweckkatalog, Mittelverwendung und Rücklagen,
-Satzungsmuster und Anerkennung, Spendenabzug § 10b EStG, gemeinnützige GmbH,
-Verbrauchsstiftung). Quellen dafür: Q5 Teil 5 (Liechtenstein-Vergleich, Governance-
-Matrix), Q3 (ausländische Strukturen), Q4, Q7 (Wegzug, § 15 AStG).
+**Liechtenstein — geschlossen (18.09.2026).** Aus Q4 (dem Aufsatz zur Neufassung des
+§ 15 AStG) und Q5 Teil 5 (Stiftungsstandort Liechtenstein, Besteuerung ausländischer
+Stiftungen, Escape von der Zurechnungsbesteuerung) sind acht weitere Themen entstanden:
+Errichtung, Organe, Stifterrechte, Transparenz, liechtensteinische Besteuerung, die vier
+Hürden des Vermögenstransfers, Quellensteuer und Zuzugsfälle. Der Block trägt damit
+10 Themen und hält seinen Zielanteil von 20 %.
 
-Was sonst noch fehlt, ist keine Lücke im Beratungsfeld, sondern Vertiefung: Pflichtteilsverzicht
+**Gemeinnützigkeitsrecht — offen.** Der Bestand hat drei Themen, das Strategiepapier
+will 12 %. Das ist keine Extraktionslücke: Das Kerngemeinnützigkeitsrecht kommt im
+vorliegenden Material nicht vor. Geprüft über alle Dokumente — § 60a AO (Feststellung
+der Satzungsmäßigkeit): keine Fundstelle, § 62 AO (Rücklagen): keine, §§ 65–68 AO
+(Zweckbetrieb): keine, Selbstlosigkeit, Ausschließlichkeit, Unmittelbarkeit: je keine,
+Freistellungsbescheid: keine; § 55 AO einmal, § 52 AO viermal. Gemeinnützigkeit steht
+in Q1–Q9 nur als Abgrenzung zur privatnützigen Familienstiftung, als Bestandteil der
+Doppelstiftung und als Risikothema (Unternehmensspenden und verdeckte
+Gewinnausschüttung, BFH 13.07.2021 – I R 16/18 und 13.07.2022 – I R 52/20) — alles
+bereits als Thema vorhanden.
+
+Der Kanzleiinhaber liefert dazu Material nach. Gebraucht werden Skelette für: Zweckkatalog
+und Anerkennung (§§ 52, 60a AO), Selbstlosigkeit und zeitnahe Mittelverwendung (§ 55 AO),
+Rücklagen (§ 62 AO), Zweckbetrieb und wirtschaftlicher Geschäftsbetrieb (§§ 64–68 AO),
+Spendenabzug und Zuwendungsbestätigung (§ 10b EStG), gemeinnützige GmbH. Bis dahin
+rotieren die drei vorhandenen Themen etwa alle zwei bis drei Wochen mit wechselndem
+Blickwinkel — tragfähig, aber dünn.
+
+Was sonst noch fehltWas sonst noch fehlt, ist keine Lücke im Beratungsfeld, sondern Vertiefung: Pflichtteilsverzicht
 und Abfindungsverhandlung als eigene Themen, Betriebsaufspaltung, Bewertung von
 Immobilien für die Erbschaftsteuer, Beirat und Aufsichtsrat im Familienunternehmen,
 Vermögensverwaltende GmbH als Ersatzform. Jedes davon trägt ein bis zwei Themen und
