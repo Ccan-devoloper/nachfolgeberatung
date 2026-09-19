@@ -19,7 +19,7 @@
         "notiz": "",
         "quellen": []
       },
-      "fehler": "2026-09-19T15:42:31.173Z Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+      "fehler": "2026-09-19T16:42:48.609Z Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
     }
   ],
   "stories": [
