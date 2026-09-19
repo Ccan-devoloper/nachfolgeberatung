@@ -1,0 +1,51 @@
+{
+  "datum": "2026-09-19",
+  "erzeugt": "2026-09-19T07:42:30.830Z",
+  "trocken": true,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "09:30",
+      "format": "carousel",
+      "themaId": "familienstiftung-begriff",
+      "themaTitel": "Wann ist eine Stiftung eine Familienstiftung — und warum das über alles entscheidet",
+      "schwerpunkt": "de",
+      "tiefe": "experte",
+      "blickwinkel": "zahl",
+      "cta": "share",
+      "status": "geplant",
+      "gegencheck": {
+        "ergebnis": "unklar",
+        "notiz": "",
+        "quellen": []
+      },
+      "fehler": "2026-09-19T07:42:30.842Z Could not resolve authentication method. Expected one of apiKey, authToken, credentials, config, or profile to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "09:50",
+      "art": "hinweis",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "09:53",
+      "art": "hook",
+      "themaId": "zugewinn-stiftung",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "13:44",
+      "art": "wissen",
+      "themaId": "steuerklassenprivileg",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
